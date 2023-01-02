@@ -1,10 +1,12 @@
 import React from "react"
+import { BsGithub, BsInstagram } from 'react-icons/bs'
+import {AiFillLinkedin, AiOutlineMail} from 'react-icons/ai'
 
 import './styles/style.css'
 
 const Sidebar = () => {
 	return (
-		<aside>
+		<aside className="sidebar">
 			<ul>
 				<li>
 					<a
@@ -12,7 +14,7 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
-						Github
+						<BsGithub className="icons" color="#127369" size={'2em'} />
 					</a>
                 </li>
                 <li>
@@ -21,7 +23,7 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
-						Linkedin
+						<AiFillLinkedin className="icons" color="#127369" size={'2em'} />
 					</a>
                 </li>
                 <li>
@@ -30,16 +32,16 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
-						Instagram
+						<BsInstagram className="icons" color="#127369" size={'2em'} />
 					</a>
                 </li>
-                <li>
+				<li>
 					<a
                         href="mailto:Danilovicentindasilva@gmail.com?"
 						rel="external"
 						target="_blank"
 					>
-						Email
+						<AiOutlineMail className="icons" color="#127369" size={'2em'} />
 					</a>
 				</li>
 			</ul>

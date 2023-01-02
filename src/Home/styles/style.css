@@ -1,9 +1,18 @@
+:root {
+	--cor1: #10403B;
+	--cor2: #4C5958;
+	--cor3: #127369;
+	--cor4: #8AA6A3;
+	--cor5: #BFBFBF;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
+	background-color: var(--cor5);
 	color: black;
-	font: normal normal 1em Arial, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }

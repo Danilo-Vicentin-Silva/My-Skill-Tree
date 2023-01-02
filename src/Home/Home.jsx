@@ -1,14 +1,18 @@
 import React from 'react';
 
+import Header from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
+import Main from "../Main/Main"
 
 import './styles/style.css'
 
 const Home = () => {
     return ( 
-        <main>
+        <div className='container'>
+            <Header />
             <Sidebar />
-        </main>
+            <Main />
+        </div>
      );
 }
  
