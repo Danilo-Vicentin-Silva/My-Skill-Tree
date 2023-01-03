@@ -2,14 +2,16 @@ import React from "react"
 
 import Header from "/src/components/Header/Header"
 import Sidebar from "/src/components/Sidebar/Sidebar"
-import Main from "/src/components/Main/Main"
+import Cards from "/src/components/Cards/Cards"
+
+import './styles/style.css'
 
 const Home = () => {
 	return (
 		<div>
 			<Header />
 			<Sidebar />
-			<Main />
+			<Cards />
 		</div>
 	)
 }
