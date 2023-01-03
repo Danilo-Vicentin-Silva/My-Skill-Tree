@@ -7,9 +7,9 @@ import Main from "/src/components/Main/Main"
 const Home = () => {
 	return (
 		<div>
-            <Header />
-            <Sidebar />
-            <Main />
+			<Header />
+			<Sidebar />
+			<Main />
 		</div>
 	)
 }

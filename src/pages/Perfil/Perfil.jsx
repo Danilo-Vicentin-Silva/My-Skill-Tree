@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react"
 
 const Perfil = () => {
-    return (<div>
-        <Header />
-    </div> );
+	return (
+		<div>
+			<h1>Perfil</h1>
+		</div>
+	)
 }
- 
-export default Perfil;
+
+export default Perfil

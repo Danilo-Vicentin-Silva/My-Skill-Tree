@@ -2,7 +2,7 @@ import React from "react"
 import { BsGithub, BsInstagram } from 'react-icons/bs'
 import {AiFillLinkedin, AiOutlineMail} from 'react-icons/ai'
 
-import './styles/style.css'
+import "./styles/style.css"
 
 const Sidebar = () => {
 	return (
