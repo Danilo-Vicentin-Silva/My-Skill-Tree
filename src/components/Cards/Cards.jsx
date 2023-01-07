@@ -1,13 +1,16 @@
 import React from "react"
 
+import { MainStyle } from "./style"
+
+
 const Main = () => {
 	return (
-		<main>
-            <section className="card">1</section>
-            <section className="card">2</section>
-            <section className="card">3</section>
-            <section className="card">4</section>
-		</main>
+		<MainStyle>
+			<section className="sec1">1</section>
+			<section>2</section>
+			<section>3</section>
+                  <section>4</section>
+		</MainStyle>
 	)
 }
 

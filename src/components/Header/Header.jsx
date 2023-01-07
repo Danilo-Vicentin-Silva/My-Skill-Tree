@@ -1,14 +1,26 @@
 import React from "react"
-import Nav from "../Nav/Nav"
 
 import logotipo from "./styles/logotipo.png"
+import { HeaderStyle } from "./styles/style"
 
 const Header = () => {
 	return (
-		<header>
-            <img src={logotipo} height={"250px"} alt="logotipo" />
-            <Nav />
-		</header>
+		<HeaderStyle>
+			<img src={logotipo} alt="logotipo" />
+			<nav>
+				<ul>
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<li>
+						<a href="/perfil">Perfil</a>
+					</li>
+					<li>
+						<a href="/projetos">Projetos</a>
+					</li>
+				</ul>
+			</nav>
+		</HeaderStyle>
 	)
 }
 

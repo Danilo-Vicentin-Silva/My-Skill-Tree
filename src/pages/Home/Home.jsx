@@ -4,15 +4,15 @@ import Header from "/src/components/Header/Header"
 import Sidebar from "/src/components/Sidebar/Sidebar"
 import Cards from "/src/components/Cards/Cards"
 
-import './styles/style.css'
+import { HomeStyle } from "./style"
 
 const Home = () => {
 	return (
-		<div>
+		<HomeStyle>
 			<Header />
 			<Sidebar />
 			<Cards />
-		</div>
+		</HomeStyle>
 	)
 }
 

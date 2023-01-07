@@ -1,4 +1,5 @@
 import React from "react"
+import { createPortal } from "react-dom"
 import ReactDOM from "react-dom/client"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
@@ -6,8 +7,11 @@ import Home from "./pages/Home/Home"
 import Perfil from "./pages/Perfil/Perfil"
 import Projetos from "./pages/Projetos/Projetos"
 
+import GlobalStyle from "./styles/GlobalStyle"
+
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
+		<GlobalStyle />
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
