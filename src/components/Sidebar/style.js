@@ -3,8 +3,6 @@ import styled from "styled-components"
 export const SidebarStyle = styled.aside`
 	display: inline-block;
 	left: 100%;
-	height: 100vh;
-	width: 3vw;
 	padding: 15px;
 
 	.icons {
