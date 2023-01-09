@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components"
 
-
 export default createGlobalStyle`
 	:root {
 	    --cor1: #10403B;
@@ -8,7 +7,7 @@ export default createGlobalStyle`
 	    --cor3: #127369;
 	    --cor4: #8AA6A3;
 	    --cor5: #BFBFBF;
-        }
+	        }
 
     * {
 	    margin: 0;

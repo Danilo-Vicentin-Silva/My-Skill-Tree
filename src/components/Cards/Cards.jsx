@@ -29,6 +29,9 @@ const Main = () => {
 					Site informativo de uma história da tecnologia
 				</p>
 			</section>
+			<section className="projects" id="sec6">
+				<h3>Espaço para mais</h3>
+			</section>
 		</MainStyle>
 	)
 }

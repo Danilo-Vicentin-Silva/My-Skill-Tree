@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SidebarStyle = styled.aside`
-	display: inline-block;
+	height: 100%;
 	left: 100%;
 	padding: 15px;
 
