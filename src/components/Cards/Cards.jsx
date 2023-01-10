@@ -1,4 +1,5 @@
 import React from "react"
+import Card from "../Card/Card"
 import Sidebar from "../Sidebar/Sidebar"
 
 import { MainStyle } from "./style"
@@ -7,31 +8,32 @@ const Main = () => {
 	return (
 		<MainStyle>
 			<Sidebar />
-			<section className="projects" id="sec1">
-				<h3>Racing F1</h3>
-				<p className="hidden-text">Site informativo da categoria Formula 1</p>
-			</section>
-			<section className="projects" id="sec2">
-				<h3>Task List</h3>
-				<p className="hidden-text">Lista de tarefas dinâmica</p>
-			</section>
-			<section className="projects" id="sec3">
-				<h3>Tela Login</h3>
-				<p className="hidden-text">Tela de login charmosa</p>
-			</section>
-			<section className="projects" id="sec4">
-				<h3>Cordel Moderno</h3>
-				<p className="hidden-text">Cordel brasileiro com efeito paralax</p>
-			</section>
-			<section className="projects" id="sec5">
-				<h3>Site Android</h3>
-				<p className="hidden-text">
-					Site informativo de uma história da tecnologia
-				</p>
-			</section>
-			<section className="projects" id="sec6">
-				<h3>Espaço para mais</h3>
-			</section>
+			<Card
+				title="Racing F1"
+				text="Site informativo da categoria Formula 1"
+				background="/src/styles/images/mercedes-f1.jpg"
+			/>
+			<Card
+				title="Task List"
+				text="Lista de tarefas dinâmica"
+				background="/src/styles/images/task-list.png"
+			/>
+			<Card
+				title="Tela Login"
+				text="Tela de login charmosa e simples (sem autenticação, apenas estética)"
+				background="/src/styles/images/tela-login.jpeg"
+			/>
+			<Card
+				title="Cordel Moderno"
+				text="Cordel brasileiro com efeito paralax"
+				background="/src/styles/images/paginas.jpg"
+			/>
+			<Card
+				title="Site Android"
+				text="Site informativo de uma história da tecnologia"
+				background="/src/styles/images/tech.jpg"
+			/>
+			<Card title="Espaço para mais" />
 		</MainStyle>
 	)
 }
