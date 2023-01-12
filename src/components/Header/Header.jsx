@@ -28,7 +28,7 @@ const Header = () => {
 							to="/perfil"
 							style={({ isActive }) => (isActive ? activeStyle : undefined)}
 						>
-							perfil
+							Perfil
 						</NavLink>
 					</li>
 					<li>

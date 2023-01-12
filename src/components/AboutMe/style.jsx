@@ -5,8 +5,16 @@ export const AboutStyle = styled.main`
     flex-direction: column;
     align-items: center;
 
-	#perfil {
+	section {
         font-size: 1.2em;
 		width: 50vw;
+	}
+
+	ul {
+		margin-top: 10px;
+		color: #10403B;
+		list-style: circle;
+		list-style-position: inside;
+		columns: 2;
 	}
 `

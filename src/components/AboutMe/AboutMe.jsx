@@ -1,5 +1,6 @@
 import React from "react"
 import SkillBar from "../SkillsBar/SkillBar"
+import SkillBar2 from "../SkillsBar/SkillBar2"
 
 import { AboutStyle } from "./style"
 
@@ -18,7 +19,7 @@ const AboutMe = () => {
 
 	return (
 		<AboutStyle>
-			<section id="perfil">
+			<section>
 				<h2>
 					{pegarHora()} <br /> Sou Danilo, programador Front End em{" "}
 					<i>Desenvolvimento Web</i>
@@ -50,6 +51,38 @@ const AboutMe = () => {
 				</p>
 			</section>
 			<SkillBar />
+			<section>
+				<p>
+					Sempre estudando as documentações oficiais, aprendendo com
+					profissionais experientes na área Front End e estudando as melhores
+					práticas do mercado, tenho experiência de nível Júnior a Pleno nas
+					seguintes tecnologias:
+				</p>
+				<ul>
+					<li>ReactJS</li>
+					<li>Javascript</li>
+					<li>HTML</li>
+					<li>CSS</li>
+				</ul>
+				<br />
+			</section>
+			<SkillBar2 />
+			<section>
+				<p>
+					Também conheço a necessidade de desenvolver, além de capacidades
+					técnicas, capacidades emocionais e morais para ajudar a mediá-las e
+					fazer valer em um ambiente de trabalho, afim de atingir um outro
+					patamar de desenvolvimento e entrega de produto. Sendo assim, me
+					considero:
+				</p>
+				<ul>
+					<li>Criativo</li>
+					<li>Esforçado</li>
+					<li>Focado</li>
+					<li>Autodidata</li>
+					<li>Organizado</li>
+				</ul>
+			</section>
 		</AboutStyle>
 	)
 }

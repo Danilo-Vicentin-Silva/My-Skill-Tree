@@ -5,13 +5,25 @@ import { BarStyle } from "./style"
 
 const SkillBar = () => {
 	return (
-		<BarStyle>
+		<>
 			<h2>Hard Skills</h2>
-			<SiCss3 size={"4em"} />
-			<SiJavascript size={"4em"} />
-			<SiReact size={"4em"} />
-			<SiHtml5 size={"4em"} />
-		</BarStyle>
+			<BarStyle>
+				<abbr title="Javascript">
+					<SiJavascript className="icons" size={"4em"} />
+				</abbr>
+				<abbr title="ReactJS">
+					<SiReact className="icons" size={"4em"} />
+				</abbr>
+				<abbr title="CSS">
+					<SiCss3 className="icons" size={"4em"} />
+				</abbr>
+
+				<abbr title="HTML">
+					<SiHtml5 className="icons" size={"4em"} />
+				</abbr>
+			</BarStyle>
+			<br />
+		</>
 	)
 }
 
