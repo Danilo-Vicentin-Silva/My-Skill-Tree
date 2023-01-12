@@ -1,5 +1,5 @@
 import styled from "styled-components"
 
-export const HomeStyle = styled.div`
+export const BarStyle = styled.article`
 
 `

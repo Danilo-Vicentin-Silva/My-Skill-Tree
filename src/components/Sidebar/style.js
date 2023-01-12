@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const SidebarStyle = styled.aside`
+	width: fit-content;
 	height: 100%;
 	left: 100%;
 	padding: 15px;

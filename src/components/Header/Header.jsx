@@ -1,22 +1,43 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 
 import logotipo from "./styles/logotipo.png"
 import { HeaderStyle } from "./styles/style"
 
 const Header = () => {
+	let activeStyle = {
+		color: "black",
+		textDecoration: "overline",
+	}
+
 	return (
 		<HeaderStyle>
 			<img src={logotipo} alt="logotipo" />
 			<nav>
 				<ul>
 					<li>
-						<a href="/">Home</a>
+						<NavLink
+							to="/"
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+						>
+							Home
+						</NavLink>
 					</li>
 					<li>
-						<a href="/perfil">Perfil</a>
+						<NavLink
+							to="/perfil"
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+						>
+							perfil
+						</NavLink>
 					</li>
 					<li>
-						<a href="/projetos">Projetos</a>
+						<NavLink
+							to="/projetos"
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+						>
+							Projetos
+						</NavLink>
 					</li>
 				</ul>
 			</nav>

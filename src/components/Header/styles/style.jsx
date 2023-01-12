@@ -23,6 +23,7 @@ export const HeaderStyle = styled.header`
         color: #10403B;
     }
     a:hover {
-        color: #4C5958;
+        color: #000000e5;
     }
+
 `
