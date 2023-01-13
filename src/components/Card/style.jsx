@@ -13,7 +13,7 @@ export const CardStyle = styled.section`
 
 	:hover {
 		background-image: url(${(props) => props.blurBackground});
-		transition: 0.4s;
+		transition: 2s;
 		width: 256px;
 
 		h3 {
@@ -46,7 +46,9 @@ export const CardStyle = styled.section`
 		pointer-events: none;
 	}
 
-	p {
+	p,
+	a {
 		display: none;
+		text-decoration: none;
 	}
 `
