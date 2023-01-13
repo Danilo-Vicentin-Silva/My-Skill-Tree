@@ -10,6 +10,10 @@ export const AboutStyle = styled.main`
 		width: 50vw;
 	}
 
+	h2 {
+		margin: 20px auto;
+	}
+
 	ul {
 		margin-top: 10px;
 		color: #10403B;
