@@ -65,8 +65,10 @@ const AboutMe = () => {
 				<ul>
 					<li>ReactJS</li>
 					<li>Javascript</li>
+					<li>Estruturas de dados</li>
 					<li>HTML</li>
 					<li>CSS</li>
+					<li>SEO</li>
 				</ul>
 				<br />
 			</section>

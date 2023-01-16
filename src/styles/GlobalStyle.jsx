@@ -26,4 +26,10 @@ export default createGlobalStyle`
 	a {
 		text-decoration: none;
 	}
+
+	hr {
+		border: 1px solid var(--cor2);
+		margin: 20px auto;
+		width: 100%;
+	}
 `

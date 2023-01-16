@@ -14,6 +14,7 @@ export const BarStyle = styled.article`
 	padding: 40px;
 
 	.icons {
+		color: black;
 		margin-right: 30px;
 	}
 	.icons:hover {

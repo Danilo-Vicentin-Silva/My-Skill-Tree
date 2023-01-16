@@ -25,18 +25,18 @@ const Header = () => {
 					</li>
 					<li>
 						<NavLink
-							to="/perfil"
-							style={({ isActive }) => (isActive ? activeStyle : undefined)}
-						>
-							Perfil
-						</NavLink>
-					</li>
-					<li>
-						<NavLink
 							to="/projetos"
 							style={({ isActive }) => (isActive ? activeStyle : undefined)}
 						>
 							Projetos
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to="/perfil"
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+						>
+							Perfil
 						</NavLink>
 					</li>
 				</ul>
