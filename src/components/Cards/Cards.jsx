@@ -4,7 +4,7 @@ import Card from "../Card/Card"
 import Sidebar from "../Sidebar/Sidebar"
 
 import { MainStyle } from "./styles/style"
-// Imagens dos Cards
+
 import MercedesF1 from "./styles/images/mercedes-f1.webp"
 import MercedesF1blur from "./styles/images/mercedes-f1-blur.webp"
 import TaskList from "./styles/images/task-list.webp"

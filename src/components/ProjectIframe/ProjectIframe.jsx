@@ -22,25 +22,20 @@ const ProjectIframe = ({ title, iframeLink, link }) => {
 				{isIframeOn ? "fechar o projeto" : "renderizar o projeto aqui mesmo"}
 			</Button>
 			{isIframeOn ? (
-				<>
-					<Iframe
-						title={title}
-						url={iframeLink}
-						height="500px"
-						width="100%"
-						id="site"
-					>
-						Seu navegador não suporta esse recurso
-					</Iframe>
-					<p>
-						Gostou do projeto? Contribua, compartilhe ou{" "}
-						<a href={link} rel="external" target={"_blank"}>
-							acesse-o
-						</a>
-					</p>
-				</>
+				<Iframe
+					title={title}
+					url={iframeLink}
+					height="500px"
+					width="100%"
+					id="site"
+				>
+					[navegador não compatível]{" "}
+					<a href={iframeLink} target={"_blank"} rel="external">
+						Acesse aqui
+					</a>
+				</Iframe>
 			) : (
-				<p>Campo de renderização</p>
+				<></>
 			)}
 		</IframeStyle>
 	)

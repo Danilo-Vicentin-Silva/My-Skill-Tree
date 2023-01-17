@@ -21,4 +21,14 @@ export const BarStyle = styled.article`
 		transition: 1s;
 		transform: rotateY(360deg);
 	}
+
+	@media screen and (max-width: 750px) {
+		padding: 20px;
+		width: 80vw;
+
+		.icons {
+			margin: auto 10px;
+			width: 50px;
+		}
+	}
 `

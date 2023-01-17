@@ -5,8 +5,9 @@ export const IframeStyle = styled.section`
 
 	p {
       color: white;
-      text-align: center;
       background-color: #4C5958;
+      text-align: center;
+
 		border: 2px dashed black;
       border-radius: 10px;
       margin-top: 10px;
@@ -17,5 +18,9 @@ export const IframeStyle = styled.section`
    a:hover {
       color: #0000ff;
       text-decoration: overline;
+   }
+
+   @media screen and (max-width: 750px) {
+      display: none;
    }
 `

@@ -4,14 +4,17 @@ export const ContactStyle = styled.section`
 	display: flex;
 	justify-content: space-around;
 
-	a {
-		color: #10403b;
-		text-decoration: underline;
-
+	p {
+		font-size: 0.8em;
 		margin: 10px auto;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	a {
+		color: #10403b;
+		text-decoration: underline;
 	}
 
 	a:hover {
@@ -22,5 +25,12 @@ export const ContactStyle = styled.section`
 	.icon {
 		text-align: center;
 		color: #10403b;
+	}
+
+	@media screen and (max-width: 750px) {
+		a {
+			font-size: 0.8em;
+			margin-bottom: 50px;
+		}
 	}
 `

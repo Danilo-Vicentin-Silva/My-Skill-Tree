@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 export const AboutStyle = styled.main`
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 
 	section {
-        font-size: 1.2em;
+		font-size: 1.2em;
 		width: 50vw;
 	}
 
@@ -16,9 +16,18 @@ export const AboutStyle = styled.main`
 
 	ul {
 		margin-top: 10px;
-		color: #10403B;
+		color: #10403b;
 		list-style: circle;
 		list-style-position: inside;
 		columns: 2;
+	}
+
+	@media screen and (max-width: 750px) {
+		h2 {
+			font-size: 1em;
+		}
+		section {
+			width: 80vw;
+		}
 	}
 `

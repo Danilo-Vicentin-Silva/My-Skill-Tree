@@ -19,11 +19,25 @@ export const HeaderStyle = styled.header`
 	li {
 		margin-right: 3vw;
 	}
-    a {
-        color: #10403B;
-    }
-    a:hover {
-        color: #000000e5;
-    }
 
+	.icon {
+		color: #127369;
+	}
+	.icon:hover {
+		color: black;
+	}
+
+	@media screen and (max-width: 750px) {
+		grid-template-columns: 25vh auto;
+		img {
+			height: 25vh;
+		}
+		nav {
+			justify-self: flex-start;
+		}
+
+		:hover {
+			color: black;
+		}
+	}
 `

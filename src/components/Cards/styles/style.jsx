@@ -4,5 +4,7 @@ export const MainStyle = styled.main`
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-`
+	justify-content: flex-start;
+
+	max-width: 90vw;
+	`

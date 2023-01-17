@@ -16,4 +16,8 @@ export const SidebarStyle = styled.aside`
 		transition: 0.5s;
 		box-shadow: 10px 10px 5px 0px #8aa6a3;
 	}
+
+	@media screen and (max-width: 750px) {
+		display: none;
+	}
 `

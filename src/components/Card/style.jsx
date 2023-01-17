@@ -5,15 +5,17 @@ export const CardStyle = styled.section`
 	background: #8aa6a3 url(${(props) => props.background}) no-repeat center
 		center;
 	background-size: cover;
+
 	display: flex;
 	height: 226px;
+	width: 156px;
 	border-radius: 7px;
 	margin: 5px 5px;
-	width: 156px;
+
+	transition: 2s;
 
 	:hover {
 		background-image: url(${(props) => props.blurBackground});
-		transition: 2s;
 		width: 256px;
 
 		h3 {
@@ -36,11 +38,12 @@ export const CardStyle = styled.section`
 	}
 
 	h3 {
-		display: block;
 		background-color: #10403b;
+		box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 5);
+
+		display: block;
 		padding: 5px;
 		border-radius: 5px;
-		box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 5);
 		align-self: center;
 		margin: auto;
 		pointer-events: none;
@@ -50,5 +53,12 @@ export const CardStyle = styled.section`
 	a {
 		display: none;
 		text-decoration: none;
+	}
+
+	@media screen and (max-width: 750px) {
+		font-size: 0.8em;
+		width: 25vw;
+		height: 25vh;
+		pointer-events: none;
 	}
 `

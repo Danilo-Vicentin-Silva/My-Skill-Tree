@@ -1,43 +1,40 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import { BiHomeAlt } from "react-icons/bi"
+import { BsCodeSlash } from "react-icons/bs"
+import { IoPersonOutline } from "react-icons/io5"
 
 import logotipo from "./styles/logotipo.png"
 import { HeaderStyle } from "./styles/style"
 
 const Header = () => {
-	let activeStyle = {
-		color: "black",
-		textDecoration: "overline",
-	}
-
 	return (
 		<HeaderStyle>
 			<img src={logotipo} alt="logotipo" />
 			<nav>
 				<ul>
 					<li>
-						<NavLink
-							to="/"
-							style={({ isActive }) => (isActive ? activeStyle : undefined)}
-						>
-							Home
-						</NavLink>
+						<abbr title="Home">
+							<NavLink to="/">
+								<BiHomeAlt size={"1.8em"} className="icon" />
+							</NavLink>
+						</abbr>
 					</li>
+
 					<li>
-						<NavLink
-							to="/projetos"
-							style={({ isActive }) => (isActive ? activeStyle : undefined)}
-						>
-							Projetos
-						</NavLink>
+						<abbr title="Projetos">
+							<NavLink to="/projetos">
+								<BsCodeSlash size={"1.8em"} className="icon" />
+							</NavLink>
+						</abbr>
 					</li>
+
 					<li>
-						<NavLink
-							to="/perfil"
-							style={({ isActive }) => (isActive ? activeStyle : undefined)}
-						>
-							Perfil
-						</NavLink>
+						<abbr title="Sobre mim">
+							<NavLink to="/perfil">
+								<IoPersonOutline size={"1.8em"} className="icon" />
+							</NavLink>
+						</abbr>
 					</li>
 				</ul>
 			</nav>

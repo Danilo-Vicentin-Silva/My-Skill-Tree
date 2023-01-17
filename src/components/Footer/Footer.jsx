@@ -1,16 +1,15 @@
 import React from "react"
+import { BiArrowToTop } from "react-icons/bi"
 
 import { FooterStyle } from "./style"
-import { BiArrowToTop } from "react-icons/bi"
+import { BackOnTop } from "./style"
 
 const Footer = () => {
 	return (
 		<FooterStyle>
-			<BiArrowToTop
-				id="icon"
-				size={"2em"}
-				onClick={() => window.scrollTo(0, 0)}
-			/>
+			<BackOnTop>
+				<BiArrowToTop size={"2em"} onClick={() => window.scrollTo(0, 0)} />
+			</BackOnTop>
 			<p>site desenvolvido por Danilo Vicentin da Silva</p>
 		</FooterStyle>
 	)

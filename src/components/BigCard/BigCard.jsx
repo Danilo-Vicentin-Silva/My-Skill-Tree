@@ -1,4 +1,5 @@
 import React from "react"
+import { BiLinkExternal } from "react-icons/bi"
 
 import ProjectIframe from "../ProjectIframe/ProjectIframe"
 
@@ -9,6 +10,11 @@ const BigCard = ({ title, image, text, iframeLink, link }) => {
 		<BigCardStyle>
 			<img src={image} title={title} alt={title} width="700px" />
 			<p>{text}</p>
+			<p>
+				<a href={link} rel="external" target={"_blank"}>
+					Acesse <BiLinkExternal />
+				</a>
+			</p>
 			<ProjectIframe iframeLink={iframeLink} link={link} />
 			<hr />
 		</BigCardStyle>

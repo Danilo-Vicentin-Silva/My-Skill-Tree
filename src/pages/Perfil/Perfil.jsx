@@ -1,8 +1,9 @@
 import React from "react"
 
-import AboutMe from "../../components/AboutMe/AboutMe"
-import Footer from "../../components/Footer/Footer"
 import Header from "/src/components/Header/Header"
+import AboutMe from "/src/components/AboutMe/AboutMe"
+import Footer from "/src/components/Footer/Footer"
+import MobileFooter from "/src/components/MobileFooter/MobileFooter"
 
 const Perfil = () => {
 	return (
@@ -10,6 +11,7 @@ const Perfil = () => {
 			<Header />
 			<AboutMe />
 			<Footer />
+			<MobileFooter />
 		</div>
 	)
 }
