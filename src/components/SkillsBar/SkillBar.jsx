@@ -1,8 +1,7 @@
 import React from "react"
 import { SiCss3, SiJavascript, SiReact, SiHtml5 } from "react-icons/si"
 import { BsSearch } from "react-icons/bs"
-import {FiDatabase} from 'react-icons/fi'
-
+import { FiDatabase } from "react-icons/fi"
 
 import { BarStyle } from "./style"
 
@@ -12,23 +11,35 @@ const SkillBar = () => {
 			<h2>Hard Skills</h2>
 			<BarStyle>
 				<abbr title="Javascript">
-					<SiJavascript className="icons" size={"4em"} />
+					<span>
+						<SiJavascript />
+					</span>
 				</abbr>
 				<abbr title="ReactJS">
-					<SiReact className="icons" size={"4em"} />
+					<span>
+						<SiReact />
+					</span>
 				</abbr>
 				<abbr title="CSS">
-					<SiCss3 className="icons" size={"4em"} />
+					<span>
+						<SiCss3 />
+					</span>
 				</abbr>
 
 				<abbr title="HTML">
-					<SiHtml5 className="icons" size={"4em"} />
+					<span>
+						<SiHtml5 />
+					</span>
 				</abbr>
 				<abbr title="SEO">
-					<BsSearch className="icons" size={"4em"} />
+					<span>
+						<BsSearch />
+					</span>
 				</abbr>
 				<abbr title="Estrutura de dados">
-					<FiDatabase className="icons" size={"4em"} />
+					<span>
+						<FiDatabase />
+					</span>
 				</abbr>
 			</BarStyle>
 			<br />

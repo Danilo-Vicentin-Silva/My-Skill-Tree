@@ -1,43 +1,33 @@
 import styled from "styled-components"
 
 export const HeaderStyle = styled.header`
-	font-size: 1.2em;
+	font-size: 2.4em;
+
 	display: grid;
-	grid-template-columns: 250px auto;
+	grid-template-columns: 35vh auto;
 
 	img {
-		height: 250px;
+		height: 34vh;
 	}
 
 	nav,
 	ul {
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
 		align-items: center;
+		justify-self: flex-start;
 	}
 	li {
 		margin-right: 3vw;
 	}
 
-	.icon {
+	span > :first-child {
 		color: #127369;
 	}
-	.icon:hover {
+	span > :first-child:hover {
 		color: black;
 	}
 
 	@media screen and (max-width: 750px) {
-		grid-template-columns: 25vh auto;
-		img {
-			height: 25vh;
-		}
-		nav {
-			justify-self: flex-start;
-		}
-
-		:hover {
-			color: black;
-		}
+		grid-template-columns: 30vh auto;
 	}
 `

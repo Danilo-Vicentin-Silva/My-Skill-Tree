@@ -16,9 +16,9 @@ export default createGlobalStyle`
     }
 
     body {
-	    background-color: var(--cor5);
 	    color: black;
-	    font-family: 'Roboto Condensed', sans-serif;
+	    background-color: var(--cor5);
+	    font-family: 'Roboto Condensed', 'Courier New', Courier, monospace;
     }
 	ul {
 		list-style: none;

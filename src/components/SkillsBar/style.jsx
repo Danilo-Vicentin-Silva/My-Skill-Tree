@@ -8,16 +8,19 @@ export const BarStyle = styled.article`
 	flex-wrap: wrap;
 	justify-content: space-around;
 	max-width: 500px;
-	
+
 	border: 2px dashed #10403b;
 	border-radius: 5px;
 	padding: 40px;
 
-	.icons {
+	span > :first-child {
 		color: black;
+
+		width: 50px;
+		height: 50px;
 		margin-right: 30px;
 	}
-	.icons:hover {
+	span > :first-child:hover {
 		transition: 1s;
 		transform: rotateY(360deg);
 	}
@@ -26,7 +29,7 @@ export const BarStyle = styled.article`
 		padding: 20px;
 		width: 80vw;
 
-		.icons {
+		span > :first-child {
 			margin: auto 10px;
 			width: 50px;
 		}

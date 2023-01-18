@@ -7,13 +7,17 @@ const Contact = () => {
 	return (
 		<ContactStyle>
 			<p>
-				<AiOutlineMail size={"2em"} className="icon" />
+				<span>
+					<AiOutlineMail />
+				</span>
 				<a href="mailto:Danilovicentindasilva@gmail.com?">
 					danilovicentindasilva@gmail.com
 				</a>
 			</p>
 			<p>
-				<AiOutlineLinkedin size={"2em"} className="icon" />
+				<span>
+					<AiOutlineLinkedin />
+				</span>
 				<a
 					href="https://www.linkedin.com/in/danilo-vicentin-da-silva-16a84022b/"
 					rel="external"

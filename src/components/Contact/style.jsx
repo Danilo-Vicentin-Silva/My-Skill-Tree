@@ -5,7 +5,7 @@ export const ContactStyle = styled.section`
 	justify-content: space-around;
 
 	p {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		margin: 10px auto;
 		display: flex;
 		flex-direction: column;
@@ -22,14 +22,16 @@ export const ContactStyle = styled.section`
 		text-decoration: none;
 	}
 
-	.icon {
-		text-align: center;
+	span > :first-child {
 		color: #10403b;
+		text-align: center;
+		width: 40px;
+		height: 40px;
 	}
 
 	@media screen and (max-width: 750px) {
 		a {
-			font-size: 0.8em;
+			font-size: 0.7em;
 			margin-bottom: 50px;
 		}
 	}

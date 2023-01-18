@@ -4,8 +4,8 @@ import { BiHomeAlt } from "react-icons/bi"
 import { BsCodeSlash } from "react-icons/bs"
 import { IoPersonOutline } from "react-icons/io5"
 
-import logotipo from "./styles/logotipo.png"
 import { HeaderStyle } from "./styles/style"
+import logotipo from "./styles/logotipo.png"
 
 const Header = () => {
 	return (
@@ -16,7 +16,9 @@ const Header = () => {
 					<li>
 						<abbr title="Home">
 							<NavLink to="/">
-								<BiHomeAlt size={"1.8em"} className="icon" />
+								<span>
+									<BiHomeAlt />
+								</span>
 							</NavLink>
 						</abbr>
 					</li>
@@ -24,7 +26,9 @@ const Header = () => {
 					<li>
 						<abbr title="Projetos">
 							<NavLink to="/projetos">
-								<BsCodeSlash size={"1.8em"} className="icon" />
+								<span>
+									<BsCodeSlash />
+								</span>
 							</NavLink>
 						</abbr>
 					</li>
@@ -32,7 +36,9 @@ const Header = () => {
 					<li>
 						<abbr title="Sobre mim">
 							<NavLink to="/perfil">
-								<IoPersonOutline size={"1.8em"} className="icon" />
+								<span>
+									<IoPersonOutline />
+								</span>
 							</NavLink>
 						</abbr>
 					</li>

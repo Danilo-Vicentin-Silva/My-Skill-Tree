@@ -21,9 +21,9 @@ const Main = () => {
 		<MainStyle>
 			<Sidebar />
 			<Card
-				title="Racing F1"
-				text="Site informativo da categoria Formula 1"
-				link="https://github.com/Danilo-Vicentin-Silva/RacingF1"
+				title={"Racing F1"}
+				text={"Site informativo da categoria Formula 1"}
+				link={"https://github.com/Danilo-Vicentin-Silva/RacingF1"}
 				background={MercedesF1}
 				blurBackground={MercedesF1blur}
 			/>
@@ -37,33 +37,35 @@ const Main = () => {
 			/>
 
 			<Card
-				title="Tela Login"
-				text="Tela de login charmosa e simples (sem autenticação, apenas estética)"
-				link="https://github.com/Danilo-Vicentin-Silva/Tela-Login"
+				title={"Tela Login"}
+				text={
+					"Tela de login charmosa e simples (sem autenticação, apenas estética)"
+				}
+				link={"https://github.com/Danilo-Vicentin-Silva/Tela-Login"}
 				background={TelaLogin}
 				blurBackground={TelaLoginBlur}
 			/>
 
 			<Card
-				title="Cordel Moderno"
-				text="Cordel brasileiro com efeito paralax"
-				link="https://github.com/Danilo-Vicentin-Silva/Cordel-Moderno"
+				title={"Cordel Moderno"}
+				text={"Cordel brasileiro com efeito paralax"}
+				link={"https://github.com/Danilo-Vicentin-Silva/Cordel-Moderno"}
 				background={Paginas}
 				blurBackground={PaginasBlur}
 			/>
 
 			<Card
-				title="Site Android"
-				text="Site informativo de uma história da tecnologia"
-				link="https://github.com/Danilo-Vicentin-Silva/Site-Android"
+				title={"Site Android"}
+				text={"Site informativo de uma história da tecnologia"}
+				link={"https://github.com/Danilo-Vicentin-Silva/Site-Android"}
 				background={Tech}
 				blurBackground={TechBlur}
 			/>
 
 			<Card
-				title="Espaço para mais"
-				text="Mais projetos vem por aí..."
-				link="https://github.com/Danilo-Vicentin-Silva"
+				title={"Espaço para mais"}
+				text={"Mais projetos vem por aí..."}
+				link={"https://github.com/Danilo-Vicentin-Silva"}
 			/>
 		</MainStyle>
 	)

@@ -12,22 +12,32 @@ const SkillBar2 = () => {
 			<h2>Soft Skills</h2>
 			<BarStyle>
 				<abbr title="Criativo">
-                    <BsLightbulb className="icons" size={'4em'}/>
-                </abbr>
+					<span>
+						<BsLightbulb />
+					</span>
+				</abbr>
 				<abbr title="Esforçado">
-                    <GiPunchBlast className="icons" size={'4em'}/>
-                </abbr>
-                <abbr title="Focado">
-                    <GiArrowScope className="icons" size={'4em'}/>
-                </abbr>
+					<span>
+						<GiPunchBlast />
+					</span>
+				</abbr>
+				<abbr title="Focado">
+					<span>
+						<GiArrowScope />
+					</span>
+				</abbr>
 				<abbr title="Autodidata">
-                    <BiBookAlt className="icons" size={'4em'}/>
-                </abbr>
+					<span>
+						<BiBookAlt />
+					</span>
+				</abbr>
 				<abbr title="Organizado">
-                    <TbChecklist className="icons" size={'4em'}/>
-                </abbr>
-            </BarStyle>
-            <br />
+					<span>
+						<TbChecklist />
+					</span>
+				</abbr>
+			</BarStyle>
+			<br />
 		</>
 	)
 }

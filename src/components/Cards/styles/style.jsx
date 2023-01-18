@@ -6,5 +6,5 @@ export const MainStyle = styled.main`
 	flex-wrap: wrap;
 	justify-content: flex-start;
 
-	max-width: 90vw;
+	max-width: 95vw;
 	`

@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const FooterStyle = styled.footer`
 	color: #127369;
+
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
@@ -16,23 +17,26 @@ export const FooterStyle = styled.footer`
 `
 
 export const BackOnTop = styled.button`
-	background: none;
-	border: none;
 	color: #10403b;
-	padding: 3px;
+	background: none;
+
+	border: none;
 	border-radius: 25%;
 
-	:hover {
+	span > :first-child {
+		width: 30px;
+		height: 30px;
+	}
+	span > :first-child:hover {
 		color: black;
-		transition: 0.5s;
 		box-shadow: 10px 10px 5px 0px #8aa6a3;
+		transition: 0.5s;
 	}
 
 	@media screen and (max-width: 750px) {
 		color: white;
 
-		:hover {
-			color: gray;
+		span > :first-child:hover {
 			box-shadow: none;
 			transition: none;
 		}

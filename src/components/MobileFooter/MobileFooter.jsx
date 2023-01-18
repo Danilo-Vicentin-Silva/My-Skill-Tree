@@ -7,6 +7,8 @@ import { MobileFooterStyle } from "./style"
 import { BackOnTop } from "../Footer/style"
 
 const MobileFooter = () => {
+	const backOnTop = () => window.scrollTo(0, 0)
+
 	return (
 		<MobileFooterStyle>
 			<p>
@@ -15,7 +17,9 @@ const MobileFooter = () => {
 					rel="external"
 					target="_blank"
 				>
-					<MdEmail size={"1em"} />
+					<span>
+						<MdEmail />
+					</span>
 					Contato
 				</a>
 			</p>
@@ -25,12 +29,16 @@ const MobileFooter = () => {
 					rel="external"
 					target="_blank"
 				>
-					<VscGithub size={"1em"} />
+					<span>
+						<VscGithub />
+					</span>
 					Veja mais
 				</a>
 			</p>
 			<BackOnTop>
-				<BiArrowToTop size={"2em"} onClick={() => window.scrollTo(0, 0)} />
+				<span>
+					<BiArrowToTop onClick={() => backOnTop()} />
+				</span>
 			</BackOnTop>
 		</MobileFooterStyle>
 	)

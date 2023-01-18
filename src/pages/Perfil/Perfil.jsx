@@ -7,12 +7,12 @@ import MobileFooter from "/src/components/MobileFooter/MobileFooter"
 
 const Perfil = () => {
 	return (
-		<div>
+		<>
 			<Header />
 			<AboutMe />
 			<Footer />
 			<MobileFooter />
-		</div>
+		</>
 	)
 }
 
