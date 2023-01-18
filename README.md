@@ -10,7 +10,7 @@ Website Portfólio de **Fron End em Web Development**, incluindo projetos realiz
 * HTML
 * CSS
 
-![My Skill Tree](https://github.com/Danilo-Vicentin-Silva/My-Skill-Tree/tree/master/src/styles/favicons/projeto.png "imagem projeto")
+<img src="/src/styles/favicons/projeto.png">
 
 ## Acessando o site
 
