@@ -1,7 +1,8 @@
 import React from "react"
 import { SiCss3, SiJavascript, SiReact, SiHtml5 } from "react-icons/si"
-import { BsSearch } from "react-icons/bs"
+import { BsSearch, BsCodeSlash } from "react-icons/bs"
 import { FiDatabase } from "react-icons/fi"
+import { ImGit } from "react-icons/im"
 
 import { BarStyle } from "./style"
 
@@ -15,9 +16,9 @@ const SkillBar = () => {
 						<SiJavascript />
 					</span>
 				</abbr>
-				<abbr title="ReactJS">
+				<abbr title="HTML">
 					<span>
-						<SiReact />
+						<SiHtml5 />
 					</span>
 				</abbr>
 				<abbr title="CSS">
@@ -25,10 +26,14 @@ const SkillBar = () => {
 						<SiCss3 />
 					</span>
 				</abbr>
-
-				<abbr title="HTML">
+				<abbr title="ReactJS">
 					<span>
-						<SiHtml5 />
+						<SiReact />
+					</span>
+				</abbr>
+				<abbr title="Git">
+					<span>
+						<ImGit />
 					</span>
 				</abbr>
 				<abbr title="SEO">
@@ -39,6 +44,11 @@ const SkillBar = () => {
 				<abbr title="Estrutura de dados">
 					<span>
 						<FiDatabase />
+					</span>
+				</abbr>
+				<abbr title="Lógica de programação">
+					<span>
+						<BsCodeSlash />
 					</span>
 				</abbr>
 			</BarStyle>

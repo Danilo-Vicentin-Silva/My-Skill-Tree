@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom"
 import { BiHomeAlt } from "react-icons/bi"
 import { BsCodeSlash } from "react-icons/bs"
 import { IoPersonOutline } from "react-icons/io5"
+import { GrReactjs } from "react-icons/gr"
 
 import { HeaderStyle } from "./styles/style"
 import logotipo from "./styles/logotipo.png"
@@ -44,6 +45,14 @@ const Header = () => {
 					</li>
 				</ul>
 			</nav>
+			<p>
+				Desenvolvido em{" "}
+				<a href="https://pt-br.reactjs.org/" rel="external" target={"_blank"}>
+					<span>
+						<GrReactjs />
+					</span>
+				</a>
+			</p>
 		</HeaderStyle>
 	)
 }

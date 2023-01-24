@@ -57,8 +57,8 @@ export const CardStyle = styled.section`
 
 	@media screen and (max-width: 750px) {
 		font-size: 0.8em;
-		width: 25vw;
-		height: 25vh;
+		width: 130px;
+		height: 200px;
 		pointer-events: none;
 	}
 `

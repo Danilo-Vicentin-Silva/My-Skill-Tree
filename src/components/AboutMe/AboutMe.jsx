@@ -23,8 +23,8 @@ const AboutMe = () => {
 		<AboutStyle>
 			<section>
 				<h2>
-					{pegarHora()} Sou Danilo, programador Front End em{" "}
-					<i>Desenvolvimento Web</i>
+					{pegarHora()} <br /> Sou Danilo, Programador Freelancer na área Front
+					End em <i>Desenvolvimento Web</i>
 				</h2>
 				<br />
 				<p>
@@ -47,18 +47,14 @@ const AboutMe = () => {
 				<br />
 				<p>
 					Com tudo que aprendi, sempre valorizando a
-					<strong> autocrítica</strong> para busca de uma base mais sólida,
-					busco ajudar uma equipe, ou até trabalhar sozinho (se necessário),
-					para construir um site totalmente seguro, interativo e eficiente.
-					Ainda não tenho experiência de trabalho, porém{" "}
-					<strong>todos os dias</strong> da semana estou estudando ou
-					desenvolvendo algum projeto para manter minhas capacidades em dia.
+					<strong> autocrítica</strong>, sou capaz de construir sites eficientes, fluídos e com estilo chamativo para o cliente. Prezo pela entrega sempre no prazo, com atualizações de cada etapa (se necessário) e com <strong>comprometimento</strong> em cada projeto.
 				</p>
 			</section>
 			<SkillBar />
 			<section>
 				<p>
-					Sempre estudando as documentações oficiais, aprendendo com <strong>profissionais experientes</strong> na área Front End e
+					Sempre estudando as documentações oficiais, aprendendo com{" "}
+					<strong>profissionais experientes</strong> na área Front End e
 					estudando as melhores práticas do mercado, tenho experiência de nível
 					Júnior a Pleno nas seguintes tecnologias:
 				</p>

@@ -1,20 +1,21 @@
 import styled from "styled-components"
 
 export const HeaderStyle = styled.header`
-	font-size: 2.4em;
+	color: #127369;
 
-	display: grid;
-	grid-template-columns: 35vh auto;
+	display: flex;
+	padding: 30px;
 
 	img {
-		height: 34vh;
+		width: 150px;
+		margin-right: 30px;
 	}
 
 	nav,
-	ul {
+	ul,
+	p {
 		display: flex;
 		align-items: center;
-		justify-self: flex-start;
 	}
 	li {
 		margin-right: 3vw;
@@ -22,12 +23,29 @@ export const HeaderStyle = styled.header`
 
 	span > :first-child {
 		color: #127369;
+		width: 40px;
+		height: 40px;
 	}
 	span > :first-child:hover {
 		color: black;
 	}
 
+	p {
+		font-size: 1em;
+		padding: 15px;
+	}
+
+	p > a > span {
+		height: 50px;
+		margin-left: 10px;
+	}
+
 	@media screen and (max-width: 750px) {
-		grid-template-columns: 30vh auto;
+		img {
+			width: 100px;
+		}
+		p {
+			display: none;
+		}
 	}
 `

@@ -6,5 +6,9 @@ export const MainStyle = styled.main`
 	flex-wrap: wrap;
 	justify-content: flex-start;
 
-	max-width: 95vw;
+	max-width: 97vw;
+
+	@media screen and (max-width: 750px) {
+		justify-content: center;
+	}
 	`
