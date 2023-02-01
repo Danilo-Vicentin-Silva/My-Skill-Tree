@@ -2,13 +2,20 @@ import styled from "styled-components"
 
 export const MainStyle = styled.main`
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
 
-	max-width: 97vw;
+	width: 95vw;
 
-	@media screen and (max-width: 750px) {
-		justify-content: center;
+	hr {
+		margin: 0;
+		visibility: hidden;
 	}
-	`
+
+	@media screen and (max-width: 1024px) {
+		justify-content: center;
+
+		hr {
+			display: none;
+		}
+	}
+`

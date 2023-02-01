@@ -1,7 +1,7 @@
 import React from "react"
 
-import Card from "../Card/Card"
 import Sidebar from "../Sidebar/Sidebar"
+import Card from "../Card/Card"
 
 import { MainStyle } from "./styles/style"
 
@@ -15,6 +15,10 @@ import Paginas from "./styles/images/paginas.webp"
 import PaginasBlur from "./styles/images/paginas-blur.webp"
 import Tech from "./styles/images/tech.webp"
 import TechBlur from "./styles/images/tech-blur.webp"
+import Javascript from "./styles/images/javascript.webp"
+import JavascriptBlur from "./styles/images/javascript-blur.webp"
+import Page from "./styles/images/page.webp"
+import PageBlur from "./styles/images/page-blur.webp"
 
 const Main = () => {
 	return (
@@ -45,7 +49,6 @@ const Main = () => {
 				background={TelaLogin}
 				blurBackground={TelaLoginBlur}
 			/>
-
 			<Card
 				title={"Cordel Moderno"}
 				text={"Cordel brasileiro com efeito paralax"}
@@ -62,6 +65,21 @@ const Main = () => {
 				blurBackground={TechBlur}
 			/>
 
+			<hr />
+			<Card
+				title={"Estudos JS"}
+				text={"Estudos avançados de Javascript"}
+				link={"https://github.com/Danilo-Vicentin-Silva/Curso-Js"}
+				background={Javascript}
+				blurBackground={JavascriptBlur}
+			/>
+			<Card
+				title={"Estudos HTML&CSS"}
+				text={"Estudos avançados de HTML5&CSS3"}
+				link={"https://github.com/Danilo-Vicentin-Silva/Curso-HTML5-CSS3"}
+				background={Page}
+				blurBackground={PageBlur}
+			/>
 			<Card
 				title={"Espaço para mais"}
 				text={"Mais projetos vem por aí..."}

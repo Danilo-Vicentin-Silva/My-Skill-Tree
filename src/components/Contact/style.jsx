@@ -29,7 +29,7 @@ export const ContactStyle = styled.section`
 		height: 40px;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		a {
 			font-size: 0.7em;
 			margin-bottom: 50px;

@@ -35,7 +35,7 @@ export const BigCardStyle = styled.article`
 		border: 2px solid black;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		img,
 		p {
 			word-spacing: 0.4em;

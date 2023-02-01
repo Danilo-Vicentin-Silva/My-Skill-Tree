@@ -3,11 +3,11 @@ import styled from "styled-components"
 export const MobileFooterStyle = styled.footer`
     display: none;
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 1024px) {
         background-color: #10403B;
         box-shadow: 0px -8px 19px -2px rgba(0,0,0,0.75);
 
-        height: 30px;
+        height: 35px;
         width: 100%;
         
         position: fixed;

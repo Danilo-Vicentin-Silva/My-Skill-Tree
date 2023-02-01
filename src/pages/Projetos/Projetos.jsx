@@ -10,6 +10,8 @@ import ListaTarefas from "./styles/images/lista-de-tarefas.webp"
 import TelaLogin from "./styles/images/tela-login.webp"
 import CordelModerno from "./styles/images/cordel-moderno.webp"
 import SiteAndroid from "./styles/images/site-android.webp"
+import CursoJavascript from './styles/images/curso-javascript.webp'
+import CursoHtmlCss from './styles/images/curso-html-css.webp'
 
 const Projetos = () => {
 	return (
@@ -58,6 +60,22 @@ const Projetos = () => {
 					}
 					iframeLink={"https://danilo-vicentin-silva.github.io/Site-Android/"}
 					link={"https://github.com/Danilo-Vicentin-Silva/Site-Android"}
+				/>
+				<BigCard
+					title={"Estudos Javascript"}
+					image={CursoJavascript}
+					text={
+						"Meu mais avançado projeto (no quesito técnico) é o meu 'curso' de JS que realizei estudando a documentação oficial (ECMANScript), lendo livros, assistindo tutoriais e mais outras técnicas que me ajudaram a evoluir mais e mais nessa incrível linguagem de programação. Aqui é um repositório de que tenho muito orgulho de dizer que existem milhares de práticas que estudei ao longo do tempo envolvendo JS. Os códigos vão do básico de JS, até o mais avançado (como estruturas de dados e algoritmos de busca)"
+					}
+					link={"https://github.com/Danilo-Vicentin-Silva/Curso-Js"}
+				/>
+				<BigCard
+					title={"Estudos HTML e CSS"}
+					image={CursoHtmlCss}
+					text={
+						"Outro repositório bem 'educativo' por assim dizer, este projeto comprova meus anos estudando HTML&CSS, em, principalmente, documentações como Mozila Web Docs e W3schools, e vídeos-tutoriais de ótimos canais de tecnologia. Esse estudo começou, do entendimento de como a internet funciona, até estudos de segurança na mesma. E, obviamente, muitas coisas sobre HTML5 (formulários, semântica, tags e etc) e também muito sobre CSS3 (Media Query, responsividade, layouts, teoria das cores e etc)"
+					}
+					link={"https://github.com/Danilo-Vicentin-Silva/Curso-HTML5-CSS3"}
 				/>
 			</main>
 			<Footer />

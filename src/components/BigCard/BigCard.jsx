@@ -18,7 +18,9 @@ const BigCard = ({ title, image, text, iframeLink, link }) => {
 					</span>
 				</a>
 			</p>
-			<ProjectIframe iframeLink={iframeLink} link={link} />
+			{iframeLink && (
+				<ProjectIframe iframeLink={iframeLink} link={link} />
+			)}
 			<hr />
 		</BigCardStyle>
 	)

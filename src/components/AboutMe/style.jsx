@@ -22,7 +22,7 @@ export const AboutStyle = styled.main`
 		columns: 2;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		h2 {
 			font-size: 1em;
 		}

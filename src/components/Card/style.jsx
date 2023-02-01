@@ -10,13 +10,13 @@ export const CardStyle = styled.section`
 	height: 226px;
 	width: 156px;
 	border-radius: 7px;
-	margin: 5px 5px;
+	margin: 10px;
 
 	transition: 2s;
 
 	:hover {
 		background-image: url(${(props) => props.blurBackground});
-		width: 256px;
+		width: 250px;
 
 		h3 {
 			display: none;
@@ -55,7 +55,7 @@ export const CardStyle = styled.section`
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		font-size: 0.8em;
 		width: 130px;
 		height: 200px;

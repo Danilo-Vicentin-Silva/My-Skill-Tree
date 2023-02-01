@@ -8,7 +8,7 @@ export const HeaderStyle = styled.header`
 
 	img {
 		width: 150px;
-		margin-right: 30px;
+		margin-right: 15px;
 	}
 
 	nav,
@@ -35,12 +35,8 @@ export const HeaderStyle = styled.header`
 		padding: 15px;
 	}
 
-	p > a > span {
-		height: 50px;
-		margin-left: 10px;
-	}
-
-	@media screen and (max-width: 750px) {
+	
+	@media screen and (max-width: 1024px) {
 		img {
 			width: 100px;
 		}

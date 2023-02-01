@@ -11,7 +11,7 @@ export const FooterStyle = styled.footer`
 		pointer-events: none;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		display: none;
 	}
 `
@@ -33,7 +33,7 @@ export const BackOnTop = styled.button`
 		transition: 0.5s;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		color: white;
 
 		span > :first-child:hover {

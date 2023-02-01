@@ -2,8 +2,10 @@ import styled from "styled-components"
 
 export const SidebarStyle = styled.aside`
 	display: flex;
-	justify-content: center;
-	width: 100px;
+	flex-wrap: wrap;
+	width: 55px;
+	margin-left: 30px;
+	
 
 	span > :first-child {
 		color: #127369;
@@ -20,7 +22,7 @@ export const SidebarStyle = styled.aside`
 		transition: 0.5s;
 	}
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 1024px) {
 		display: none;
 	}
 `
