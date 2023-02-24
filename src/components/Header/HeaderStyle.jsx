@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const HeaderStyle = styled.header`
-	color: #127369;
+	color: black;
 
 	display: flex;
 	padding: 30px;
@@ -22,17 +22,22 @@ export const HeaderStyle = styled.header`
 	}
 
 	span > :first-child {
-		color: #127369;
+		color: black;
 		width: 40px;
 		height: 40px;
 	}
 	span > :first-child:hover {
-		color: black;
+		color: #343434;
 	}
 
 	p {
-		font-size: 1em;
+		font-size: 1.1em;
 		padding: 15px;
+	}
+
+	p > a {
+		color: #0b443e;
+		margin-left: 5px;
 	}
 
 	

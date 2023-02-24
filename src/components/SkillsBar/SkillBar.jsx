@@ -1,10 +1,16 @@
 import React from "react"
-import { SiCss3, SiJavascript, SiReact, SiHtml5 } from "react-icons/si"
+import {
+	SiCss3,
+	SiJavascript,
+	SiReact,
+	SiHtml5,
+	SiTypescript,
+} from "react-icons/si"
 import { BsSearch, BsCodeSlash } from "react-icons/bs"
 import { FiDatabase } from "react-icons/fi"
 import { ImGit } from "react-icons/im"
 
-import { BarStyle } from './SkillbarStyle'
+import { BarStyle } from "./SkillbarStyle"
 
 const SkillBar = () => {
 	return (
@@ -14,6 +20,11 @@ const SkillBar = () => {
 				<abbr title="Javascript">
 					<span>
 						<SiJavascript />
+					</span>
+				</abbr>
+				<abbr title="Typescript">
+					<span>
+						<SiTypescript />
 					</span>
 				</abbr>
 				<abbr title="HTML">

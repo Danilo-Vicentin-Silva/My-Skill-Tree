@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
+import Background from './assets/images/background.webp'
+
 export default createGlobalStyle`
 	:root {
 	    --cor1: #10403B;
@@ -17,7 +19,9 @@ export default createGlobalStyle`
 
     body {
 	    color: black;
-	    background-color: var(--cor5);
+		background: url(${Background});
+		background-size: cover;
+	    background-color: #9e9fa2;
 	    font-family: 'Roboto Condensed', 'Courier New', Courier, monospace;
     }
 	ul {

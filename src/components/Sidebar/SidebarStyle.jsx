@@ -8,7 +8,7 @@ export const SidebarStyle = styled.aside`
 	
 
 	span > :first-child {
-		color: #127369;
+		color: #000000;
 
 		height: 30px;
 		width: 30px;
@@ -17,8 +17,8 @@ export const SidebarStyle = styled.aside`
 	}
 
 	span > :first-child:hover {
-		color: black;
-		box-shadow: 10px 10px 5px 0px #8aa6a3;
+		color: #2b2b2b;
+		box-shadow: 10px 10px 5px 0px #00000031;
 		transition: 0.5s;
 	}
 

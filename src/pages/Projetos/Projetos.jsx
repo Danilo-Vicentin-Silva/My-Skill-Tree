@@ -1,21 +1,22 @@
 import React from "react"
-
-import Header from '../../components/Header/Header'
+import Header from "../../components/Header/Header"
 import BigCard from "../../components/BigCard/BigCard"
 import Footer from "../../components/Footer/Footer"
 import MobileFooter from "../../components/Footer/MobileFooter"
 
+import { ProjetosStyle } from "./ProjetosStyle"
 import RacingF1 from "../../assets/images/racing-f1.webp"
 import ListaTarefas from "../../assets/images/lista-de-tarefas.webp"
-import TelaLogin from "../../assets/images/tela-login.webp"
+import TelaLogin from "../../assets/images/tela-login-apresentacao.webp"
 import CordelModerno from "../../assets/images/cordel-moderno.webp"
 import SiteAndroid from "../../assets/images/site-android.webp"
 import CursoJavascript from "../../assets/images/curso-javascript.webp"
 import CursoHtmlCss from "../../assets/images/curso-html-css.webp"
+import CursoTsApresentacao from "../../assets/images/curso-ts-apresentacao.webp"
 
 const Projetos = () => {
 	return (
-		<>
+		<ProjetosStyle>
 			<Header />
 			<main>
 				<BigCard
@@ -77,10 +78,18 @@ const Projetos = () => {
 					}
 					link={"https://github.com/Danilo-Vicentin-Silva/Curso-HTML5-CSS3"}
 				/>
+				<BigCard
+					title={"Estudos Typescript"}
+					image={CursoTsApresentacao}
+					text={
+						"Repositório onde eu estudo a fundo a linguagem de programação typescript, testando códigos, fixando conhecimentos, e lendo a documentação oficial. Nesse estudo eu observo o contraste  do TS com o JS, que não é tão pequeno quanto aparenta ser. Minha primeira linguagem de programação com forte tipagem e mais parecida com as convencionais (Java, C#, entre outros) viso aumentar meu nível com essa incrível linguagem."
+					}
+					link={"https://github.com/Danilo-Vicentin-Silva/curso-ts"}
+				/>
 			</main>
 			<Footer />
 			<MobileFooter />
-		</>
+		</ProjetosStyle>
 	)
 }
 

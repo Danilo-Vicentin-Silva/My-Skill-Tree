@@ -1,12 +1,12 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { BiHomeAlt } from "react-icons/bi"
-import { BsCodeSlash } from "react-icons/bs"
-import { IoPersonOutline } from "react-icons/io5"
-import { GrReactjs } from "react-icons/gr"
 
-import { HeaderStyle } from './HeaderStyle'
-import logotipo from '../../assets/images/logotipo.webp'
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined"
+import CodeRoundedIcon from "@mui/icons-material/CodeRounded"
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined"
+
+import { HeaderStyle } from "./HeaderStyle"
+import logotipo from "../../assets/images/logotipo.webp"
 
 const Header = () => {
 	return (
@@ -18,7 +18,7 @@ const Header = () => {
 						<abbr title="Home">
 							<NavLink to="/">
 								<span>
-									<BiHomeAlt />
+									<HomeOutlinedIcon />
 								</span>
 							</NavLink>
 						</abbr>
@@ -28,7 +28,7 @@ const Header = () => {
 						<abbr title="Projetos">
 							<NavLink to="/projetos">
 								<span>
-									<BsCodeSlash />
+									<CodeRoundedIcon />
 								</span>
 							</NavLink>
 						</abbr>
@@ -38,7 +38,7 @@ const Header = () => {
 						<abbr title="Sobre mim">
 							<NavLink to="/perfil">
 								<span>
-									<IoPersonOutline />
+									<PersonOutlinedIcon />
 								</span>
 							</NavLink>
 						</abbr>
@@ -46,11 +46,9 @@ const Header = () => {
 				</ul>
 			</nav>
 			<p>
-				Desenvolvido em{" "}
+				Desenvolvido em
 				<a href="https://pt-br.reactjs.org/" rel="external" target={"_blank"}>
-					<span>
-						<GrReactjs />
-					</span>
+					ReactJS
 				</a>
 			</p>
 		</HeaderStyle>

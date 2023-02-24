@@ -1,9 +1,8 @@
 import React from "react"
-import { BiLinkExternal } from "react-icons/bi"
-
 import ProjectIframe from "../ProjectIframe/ProjectIframe"
 
 import { BigCardStyle } from "./BigCardStyle"
+import LaunchIcon from '@mui/icons-material/Launch';
 
 const BigCard = ({ title, image, text, iframeLink, link }) => {
 	return (
@@ -14,7 +13,7 @@ const BigCard = ({ title, image, text, iframeLink, link }) => {
 				<a href={link} rel="external" target={"_blank"}>
 					Acesse{" "}
 					<span>
-						<BiLinkExternal />
+						<LaunchIcon />
 					</span>
 				</a>
 			</p>

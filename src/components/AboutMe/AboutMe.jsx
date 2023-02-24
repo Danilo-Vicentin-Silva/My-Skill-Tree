@@ -65,6 +65,7 @@ const AboutMe = () => {
 				<ul>
 					<li>ReactJS</li>
 					<li>Javascript</li>
+					<li>Typescript</li>
 					<li>Estruturas de dados</li>
 					<li>HTML</li>
 					<li>CSS</li>

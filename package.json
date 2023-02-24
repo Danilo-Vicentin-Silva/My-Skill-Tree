@@ -11,12 +11,12 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@fontsource/roboto": "^4.5.8",
-    "@mui/icons-material": "^5.11.0",
-    "@mui/material": "^5.11.4",
-    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.10",
+    "@mui/styled-engine-sc": "^5.11.9",
     "@testing-library/react": "^13.4.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

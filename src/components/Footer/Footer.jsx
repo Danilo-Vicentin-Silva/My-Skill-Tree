@@ -1,7 +1,7 @@
 import React from "react"
-import { BiArrowToTop } from "react-icons/bi"
 
 import { FooterStyle, BackOnTop } from './FooterStyle'
+import VerticalAlignTopIcon from '@mui/icons-material/VerticalAlignTop';
 
 const Footer = () => {
 	const backOnTop = () => window.scrollTo(0, 0)
@@ -10,7 +10,7 @@ const Footer = () => {
 		<FooterStyle>
 			<BackOnTop>
 				<span>
-					<BiArrowToTop onClick={() => backOnTop()} />
+					<VerticalAlignTopIcon onClick={() => backOnTop()} />
 				</span>
 			</BackOnTop>
 
