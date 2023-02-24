@@ -3,8 +3,8 @@ import { MdEmail } from "react-icons/md"
 import { VscGithub } from "react-icons/vsc"
 import { BiArrowToTop } from "react-icons/bi"
 
-import { MobileFooterStyle } from "./style"
-import { BackOnTop } from "../Footer/style"
+import { MobileFooterStyle } from './FooterStyle'
+import { BackOnTop } from './FooterStyle'
 
 const MobileFooter = () => {
 	const backOnTop = () => window.scrollTo(0, 0)

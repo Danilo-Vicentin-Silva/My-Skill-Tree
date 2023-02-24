@@ -1,7 +1,7 @@
 import React from "react"
 import { BiArrowToTop } from "react-icons/bi"
 
-import { FooterStyle, BackOnTop } from "./style"
+import { FooterStyle, BackOnTop } from './FooterStyle'
 
 const Footer = () => {
 	const backOnTop = () => window.scrollTo(0, 0)

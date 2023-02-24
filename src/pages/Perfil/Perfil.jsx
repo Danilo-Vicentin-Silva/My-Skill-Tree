@@ -1,9 +1,9 @@
 import React from "react"
 
-import Header from "/src/components/Header/Header"
-import AboutMe from "/src/components/AboutMe/AboutMe"
-import Footer from "/src/components/Footer/Footer"
-import MobileFooter from "/src/components/MobileFooter/MobileFooter"
+import Header from "../../components/Header/Header"
+import AboutMe from "../../components/AboutMe/AboutMe"
+import Footer from "../../components/Footer/Footer"
+import MobileFooter from "../../components/Footer/MobileFooter"
 
 const Perfil = () => {
 	return (

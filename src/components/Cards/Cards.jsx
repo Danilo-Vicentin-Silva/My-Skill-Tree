@@ -3,26 +3,28 @@ import React from "react"
 import Sidebar from "../Sidebar/Sidebar"
 import Card from "../Card/Card"
 
-import { MainStyle } from "./styles/style"
+import { CardStyle } from "./CardsStyle"
 
-import MercedesF1 from "./styles/images/mercedes-f1.webp"
-import MercedesF1blur from "./styles/images/mercedes-f1-blur.webp"
-import TaskList from "./styles/images/task-list.webp"
-import TaskListBlur from "./styles/images/task-list-blur.webp"
-import TelaLogin from "./styles/images/tela-login.webp"
-import TelaLoginBlur from "./styles/images/tela-login-blur.webp"
-import Paginas from "./styles/images/paginas.webp"
-import PaginasBlur from "./styles/images/paginas-blur.webp"
-import Tech from "./styles/images/tech.webp"
-import TechBlur from "./styles/images/tech-blur.webp"
-import Javascript from "./styles/images/javascript.webp"
-import JavascriptBlur from "./styles/images/javascript-blur.webp"
-import Page from "./styles/images/page.webp"
-import PageBlur from "./styles/images/page-blur.webp"
+import MercedesF1 from "../../assets/images/mercedes-f1.webp"
+import MercedesF1blur from "../../assets/images/mercedes-f1-blur.webp"
+import TaskList from "../../assets/images/task-list.webp"
+import TaskListBlur from "../../assets/images/task-list-blur.webp"
+import TelaLogin from "../../assets/images/tela-login.webp"
+import TelaLoginBlur from "../../assets/images/tela-login-blur.webp"
+import Paginas from "../../assets/images/paginas.webp"
+import PaginasBlur from "../../assets/images/paginas-blur.webp"
+import Tech from "../../assets/images/tech.webp"
+import TechBlur from "../../assets/images/tech-blur.webp"
+import Javascript from "../../assets/images/javascript.webp"
+import JavascriptBlur from "../../assets/images/javascript-blur.webp"
+import Page from "../../assets/images/page.webp"
+import PageBlur from "../../assets/images/page-blur.webp"
+import Typescript from '../../assets/images/typescript.webp'
+import TypescriptBlur from '../../assets/images/typescript-blur.webp'
 
 const Main = () => {
 	return (
-		<MainStyle>
+		<CardStyle>
 			<Sidebar />
 			<Card
 				title={"Racing F1"}
@@ -81,11 +83,18 @@ const Main = () => {
 				blurBackground={PageBlur}
 			/>
 			<Card
+				title={"Estudos TS"}
+				text={"Estudos avançados de TypeScript"}
+				link={"https://github.com/Danilo-Vicentin-Silva/curso-ts"}
+				background={Typescript}
+				blurBackground={TypescriptBlur}
+			/>
+			<Card
 				title={"Espaço para mais"}
 				text={"Mais projetos vem por aí..."}
 				link={"https://github.com/Danilo-Vicentin-Silva"}
 			/>
-		</MainStyle>
+		</CardStyle>
 	)
 }
 

@@ -5,8 +5,8 @@ import { BsCodeSlash } from "react-icons/bs"
 import { IoPersonOutline } from "react-icons/io5"
 import { GrReactjs } from "react-icons/gr"
 
-import { HeaderStyle } from "./styles/style"
-import logotipo from "./styles/logotipo.png"
+import { HeaderStyle } from './HeaderStyle'
+import logotipo from '../../assets/images/logotipo.webp'
 
 const Header = () => {
 	return (

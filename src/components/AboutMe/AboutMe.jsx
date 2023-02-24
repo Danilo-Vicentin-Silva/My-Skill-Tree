@@ -4,7 +4,7 @@ import Contact from "../Contact/Contact"
 import SkillBar from "../SkillsBar/SkillBar"
 import SkillBar2 from "../SkillsBar/SkillBar2"
 
-import { AboutStyle } from "./style"
+import { AboutStyle } from './AboutMeStyle'
 
 const AboutMe = () => {
 	function pegarHora() {
@@ -23,40 +23,44 @@ const AboutMe = () => {
 		<AboutStyle>
 			<section>
 				<h2>
-					{pegarHora()} <br /> Sou Danilo, Programador Freelancer na área Front
-					End em <i>Desenvolvimento Web</i>
+					{pegarHora()} Sou Danilo, <i>Desenvolvedor Web (Front End)</i>
 				</h2>
 				<br />
 				<p>
-					Com bastante experiência em computadores{" "}
-					<strong>desde pequeno</strong>, eu embarquei no mundo da programação
-					em Janeiro de 2021, sem ideia de como as 'simples' linhas de código
-					binário se transformavam em toda uma interface interativa nos
-					computadores.
+					Com grande experiência em computadores, comecei meus estudos de
+					programação em Janeiro de 2021, com o objetivo de se tornar um
+					programador <strong>Full Stack em desenvolvimento web</strong>. Tudo
+					começou com Javascript e Python, onde explorei como funcionava a
+					lógica de programação com eles. Preferi ficar apenas com o{" "}
+					<strong>JS, HTML e CSS</strong> no começo, onde explorei, com
+					documentações e videoaulas, como funcionava o{" "}
+					<i>desenvolvimento web</i>.
 				</p>
 				<br />
 				<p>
-					Atualmente, depois de um ano estudando, sou programador Front End na
-					área de <strong>Web Development</strong>, disposto a trabalhar em
-					grandes empresas que valorizam o bom uso da tecnogia e seus
-					desenvolvedores, que tanto trabalham por um sistema eficiente, sem
-					falhas (se possível) e sempre usando as tecnologia mais atuais. Ou até
-					trabalhar como <strong>Freelancer</strong> para diversos
-					empreendedores, ainda estudo qual vertente irei seguir.
+					Passado um ano estudando quase todos os dias, me tornei um
+					desenvolvedor de sites na Front End, com conhecimentos aprofundados na
+					área (SEO, Web Design, UI&UX, Lógica de Programação, Estrutura de
+					Dados com Javascript, entre outros) já desenvolvi diversos projetos
+					pessoais afim de fixar esses conhecimentos, aprimorar meu "repertório"
+					e melhorar minha <strong>eficiência de trabalho</strong>.
 				</p>
 				<br />
 				<p>
-					Com tudo que aprendi, sempre valorizando a
-					<strong> autocrítica</strong>, sou capaz de construir sites eficientes, fluídos e com estilo chamativo para o cliente. Prezo pela entrega sempre no prazo, com atualizações de cada etapa (se necessário) e com <strong>comprometimento</strong> em cada projeto.
+					Com tudo que aprendi, sou capaz de desenvolver sites eficientes,
+					interativos, semânticos, de fácil manutenção e diversos outros
+					atributos que qualquer site de sucesso deve ter (pelo menos na
+					
+					<strong> Frontend</strong>).
 				</p>
 			</section>
 			<SkillBar />
 			<section>
 				<p>
-					Sempre estudando as documentações oficiais, aprendendo com{" "}
-					<strong>profissionais experientes</strong> na área Front End e
-					estudando as melhores práticas do mercado, tenho experiência de nível
-					Júnior a Pleno nas seguintes tecnologias:
+					Sempre estudando as documentações oficiais, seguindo newsletters,
+					assistindo videoaulas e estudando muito, prezo por estar sempre
+					evoluindo em minha área, e sempre utilizando as melhores tecnologias
+					do mercado de programação, sendo elas:
 				</p>
 				<ul>
 					<li>ReactJS</li>

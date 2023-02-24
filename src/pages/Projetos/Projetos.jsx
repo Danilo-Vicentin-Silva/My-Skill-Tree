@@ -1,17 +1,17 @@
 import React from "react"
 
-import Header from "/src/components/Header/Header"
-import BigCard from "/src/components/BigCard/BigCard"
-import Footer from "/src/components/Footer/Footer"
-import MobileFooter from "../../components/MobileFooter/MobileFooter"
+import Header from '../../components/Header/Header'
+import BigCard from "../../components/BigCard/BigCard"
+import Footer from "../../components/Footer/Footer"
+import MobileFooter from "../../components/Footer/MobileFooter"
 
-import RacingF1 from "./styles/images/Racing f1.webp"
-import ListaTarefas from "./styles/images/lista-de-tarefas.webp"
-import TelaLogin from "./styles/images/tela-login.webp"
-import CordelModerno from "./styles/images/cordel-moderno.webp"
-import SiteAndroid from "./styles/images/site-android.webp"
-import CursoJavascript from './styles/images/curso-javascript.webp'
-import CursoHtmlCss from './styles/images/curso-html-css.webp'
+import RacingF1 from "../../assets/images/racing-f1.webp"
+import ListaTarefas from "../../assets/images/lista-de-tarefas.webp"
+import TelaLogin from "../../assets/images/tela-login.webp"
+import CordelModerno from "../../assets/images/cordel-moderno.webp"
+import SiteAndroid from "../../assets/images/site-android.webp"
+import CursoJavascript from "../../assets/images/curso-javascript.webp"
+import CursoHtmlCss from "../../assets/images/curso-html-css.webp"
 
 const Projetos = () => {
 	return (

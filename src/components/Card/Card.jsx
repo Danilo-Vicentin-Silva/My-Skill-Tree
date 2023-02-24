@@ -1,6 +1,6 @@
 import React from "react"
 
-import { CardStyle } from "./style"
+import { CardStyle } from "./CardStyle"
 
 const Card = (props) => {
 	return (

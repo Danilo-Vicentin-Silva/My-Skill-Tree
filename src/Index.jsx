@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home"
 import Perfil from "./pages/Perfil/Perfil"
 import Projetos from "./pages/Projetos/Projetos"
 
-import GlobalStyle from "./styles/GlobalStyle"
+import GlobalStyle from './GlobalStyle'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>

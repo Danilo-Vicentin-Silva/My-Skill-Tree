@@ -4,7 +4,7 @@ import { GiPunchBlast, GiArrowScope } from "react-icons/gi"
 import { BiBookAlt } from "react-icons/bi"
 import { TbChecklist } from "react-icons/tb"
 
-import { BarStyle } from "./style"
+import { BarStyle } from './SkillbarStyle'
 
 const SkillBar2 = () => {
 	return (

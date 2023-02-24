@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Iframe from "react-iframe"
 import { Button } from "@mui/material"
 
-import { IframeStyle } from "./style"
+import { IframeStyle } from './ProjectIframeStyle'
 
 const ProjectIframe = ({ title, iframeLink, link }) => {
 	const [isIframeOn, setIframe] = useState(false)

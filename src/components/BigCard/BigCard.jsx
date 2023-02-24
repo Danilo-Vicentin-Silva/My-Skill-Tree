@@ -3,7 +3,7 @@ import { BiLinkExternal } from "react-icons/bi"
 
 import ProjectIframe from "../ProjectIframe/ProjectIframe"
 
-import { BigCardStyle } from "./style"
+import { BigCardStyle } from "./BigCardStyle"
 
 const BigCard = ({ title, image, text, iframeLink, link }) => {
 	return (
@@ -18,9 +18,7 @@ const BigCard = ({ title, image, text, iframeLink, link }) => {
 					</span>
 				</a>
 			</p>
-			{iframeLink && (
-				<ProjectIframe iframeLink={iframeLink} link={link} />
-			)}
+			{iframeLink && <ProjectIframe iframeLink={iframeLink} link={link} />}
 			<hr />
 		</BigCardStyle>
 	)

@@ -10,6 +10,10 @@ export const AboutStyle = styled.main`
 		width: 50vw;
 	}
 
+	p {
+		text-align: justify;
+	}
+
 	h2 {
 		margin: 20px auto;
 	}

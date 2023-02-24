@@ -1,7 +1,7 @@
 import React from "react"
 import { AiOutlineMail, AiOutlineLinkedin } from "react-icons/ai"
 
-import { ContactStyle } from "./style"
+import { ContactStyle } from './ContactStyle'
 
 const Contact = () => {
 	return (

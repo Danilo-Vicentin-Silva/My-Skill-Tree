@@ -4,7 +4,7 @@ import { BsSearch, BsCodeSlash } from "react-icons/bs"
 import { FiDatabase } from "react-icons/fi"
 import { ImGit } from "react-icons/im"
 
-import { BarStyle } from "./style"
+import { BarStyle } from './SkillbarStyle'
 
 const SkillBar = () => {
 	return (

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const MainStyle = styled.main`
+export const CardStyle = styled.main`
 	display: flex;
 	flex-wrap: wrap;
 
