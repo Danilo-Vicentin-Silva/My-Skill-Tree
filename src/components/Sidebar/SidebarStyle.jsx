@@ -6,6 +6,9 @@ export const SidebarStyle = styled.aside`
 	width: 55px;
 	margin-left: 30px;
 	
+	p {
+		display: none;
+	}
 
 	span > :first-child {
 		color: #000000;

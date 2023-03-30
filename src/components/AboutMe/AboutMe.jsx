@@ -83,6 +83,7 @@ const AboutMe = () => {
 					produto. Sendo assim, me considero:
 				</p>
 				<ul>
+					<li>Marketing Digital</li>
 					<li>Criativo</li>
 					<li>Esforçado</li>
 					<li>Focado</li>

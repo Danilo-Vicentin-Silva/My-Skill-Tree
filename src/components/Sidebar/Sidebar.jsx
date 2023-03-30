@@ -2,7 +2,7 @@ import React from "react"
 import { BsGithub, BsInstagram } from "react-icons/bs"
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
 
-import { SidebarStyle } from './SidebarStyle'
+import { SidebarStyle } from "./SidebarStyle"
 
 const Sidebar = () => {
 	return (
@@ -14,6 +14,7 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
+						<p>Github</p>
 						<span>
 							<BsGithub />
 						</span>
@@ -25,6 +26,7 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
+						<p>Linkedin</p>
 						<span>
 							<AiFillLinkedin />
 						</span>
@@ -36,6 +38,7 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
+						<p>Instagram</p>
 						<span>
 							<BsInstagram />
 						</span>
@@ -47,6 +50,7 @@ const Sidebar = () => {
 						rel="external"
 						target="_blank"
 					>
+						<p>Email</p>
 						<span>
 							<AiOutlineMail />
 						</span>

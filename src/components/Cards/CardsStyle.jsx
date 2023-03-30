@@ -6,6 +6,10 @@ export const CardStyle = styled.main`
 
 	width: 95vw;
 
+	h1 {
+		display: none;
+	}
+
 	hr {
 		margin: 0;
 		visibility: hidden;

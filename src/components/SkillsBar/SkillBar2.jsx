@@ -1,9 +1,9 @@
 import React from "react"
+import StorefrontIcon from "@mui/icons-material/Storefront"
 import { BsLightbulb } from "react-icons/bs"
 import { GiPunchBlast, GiArrowScope } from "react-icons/gi"
 import { BiBookAlt } from "react-icons/bi"
 import { TbChecklist } from "react-icons/tb"
-
 import { BarStyle } from './SkillbarStyle'
 
 const SkillBar2 = () => {
@@ -11,6 +11,11 @@ const SkillBar2 = () => {
 		<>
 			<h2>Soft Skills</h2>
 			<BarStyle>
+				<abbr title="Marketing Digital">
+					<span>
+						<StorefrontIcon />
+					</span>
+				</abbr>
 				<abbr title="Criativo">
 					<span>
 						<BsLightbulb />

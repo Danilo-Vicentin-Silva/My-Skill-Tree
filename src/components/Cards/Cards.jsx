@@ -26,6 +26,7 @@ const Main = () => {
 	return (
 		<CardStyle>
 			<Sidebar />
+			<h1>Projetos</h1>
 			<Card
 				title={"Racing F1"}
 				text={"Site informativo da categoria Formula 1"}
