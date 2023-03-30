@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom"
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined"
 import CodeRoundedIcon from "@mui/icons-material/CodeRounded"
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined"
+import { IoLogoReact } from "react-icons/io5"
 
 import { HeaderStyle } from "./HeaderStyle"
 import logotipo from "../../assets/images/logotipo.webp"
@@ -48,7 +49,7 @@ const Header = () => {
 			<p>
 				Desenvolvido em
 				<a href="https://pt-br.reactjs.org/" rel="external" target={"_blank"}>
-					ReactJS
+					ReactJS <IoLogoReact />
 				</a>
 			</p>
 		</HeaderStyle>

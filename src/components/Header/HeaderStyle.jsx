@@ -30,6 +30,10 @@ export const HeaderStyle = styled.header`
 		color: #343434;
 	}
 
+	a:hover {
+		color black;
+	}
+
 	p {
 		font-size: 1.1em;
 		padding: 15px;

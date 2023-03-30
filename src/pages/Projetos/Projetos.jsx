@@ -1,10 +1,11 @@
 import React from "react"
+import { Background } from "../../components/Background/Background"
 import Header from "../../components/Header/Header"
 import BigCard from "../../components/BigCard/BigCard"
 import Footer from "../../components/Footer/Footer"
 import MobileFooter from "../../components/Footer/MobileFooter"
 
-import { ProjetosStyle } from "./ProjetosStyle"
+
 import RacingF1 from "../../assets/images/racing-f1.webp"
 import ListaTarefas from "../../assets/images/lista-de-tarefas.webp"
 import TelaLogin from "../../assets/images/tela-login-apresentacao.webp"
@@ -16,7 +17,7 @@ import CursoTsApresentacao from "../../assets/images/curso-ts-apresentacao.webp"
 
 const Projetos = () => {
 	return (
-		<ProjetosStyle>
+		<Background>
 			<Header />
 			<main>
 				<BigCard
@@ -89,7 +90,7 @@ const Projetos = () => {
 			</main>
 			<Footer />
 			<MobileFooter />
-		</ProjetosStyle>
+		</Background>
 	)
 }
 
