@@ -14,6 +14,17 @@ export const CardStyle = styled.section`
 
 	transition: 2s;
 
+	// Pré-carregar image-blur
+	::before {
+		content: "";
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		width: 0;
+		height: 0;
+		background-image: url(${(props) => props.blurBackground});
+	}
+
 	:hover {
 		background-image: url(${(props) => props.blurBackground});
 		width: 250px;
