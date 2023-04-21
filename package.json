@@ -25,7 +25,7 @@
     "react-icons": "^4.7.1",
     "react-iframe": "^1.8.5",
     "react-router-dom": "^6.6.1",
-    "sort-by": "^1.2.0",
+    "sort-by": "^0.0.2",
     "styled-components": "^5.3.6",
     "testing-library": "^0.0.2"
   },
