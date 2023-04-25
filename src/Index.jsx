@@ -8,6 +8,7 @@ import Projetos from "./pages/Projetos/Projetos"
 
 import GlobalStyle from './GlobalStyle'
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<GlobalStyle />
