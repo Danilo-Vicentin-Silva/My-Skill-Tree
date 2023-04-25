@@ -4,7 +4,7 @@ import Contact from "../Contact/Contact"
 import SkillBar from "../SkillsBar/SkillBar"
 import SkillBar2 from "../SkillsBar/SkillBar2"
 
-import { AboutStyle } from './AboutMeStyle'
+import { AboutStyle } from "./AboutMeStyle"
 
 const AboutMe = () => {
 	function pegarHora() {
@@ -23,35 +23,41 @@ const AboutMe = () => {
 		<AboutStyle>
 			<section>
 				<h2>
-					{pegarHora()} Sou Danilo, <i>Desenvolvedor Web (Front End)</i>
+					{pegarHora()} Sou Danilo, <br />
+					<i> programador em Desenvolvimento Web</i>
 				</h2>
 				<br />
 				<p>
-					Com grande experiência em computadores, comecei meus estudos de
-					programação em Janeiro de 2021, com o objetivo de se tornar um
-					programador <strong>Full Stack em desenvolvimento web</strong>. Tudo
-					começou com Javascript e Python, onde explorei como funcionava a
-					lógica de programação com eles. Preferi ficar apenas com o{" "}
-					<strong>JS, HTML e CSS</strong> no começo, onde explorei, com
-					documentações e videoaulas, como funcionava o{" "}
-					<i>desenvolvimento web</i>.
+					Programador em desenvolvimento web com experiência em{" "}
+					<strong>criar soluções web personalizadas</strong> para empresas de
+					todos os tamanhos e setores. Minha especialidade é o desenvolvimento
+					de sites e aplicações web, utilizando as mais{" "}
+					<strong>recentes tecnologias</strong> e ferramentas disponíveis no
+					mercado. Tenho habilidade em linguagens de programação como HTML, CSS,
+					JavaScript, Typescript e NodeJS e ReactJS.
 				</p>
 				<br />
 				<p>
-					Passado um ano estudando quase todos os dias, me tornei um
-					desenvolvedor de sites na Front End, com conhecimentos aprofundados na
-					área (SEO, Web Design, UI&UX, Lógica de Programação, Estrutura de
-					Dados com Javascript, entre outros) já desenvolvi diversos projetos
-					pessoais afim de fixar esses conhecimentos, aprimorar meu "repertório"
-					e melhorar minha <strong>eficiência de trabalho</strong>.
+					Tenho uma abordagem <strong>centrada no usuário</strong> para o
+					desenvolvimento, trabalhando em colaboração com a equipe do cliente
+					(ou só o mesmo) para garantir que as soluções entregues atendam às
+					necessidades específicas de cada projeto. Estou sempre procurando
+					maneiras de <strong>otimizar o desempenho e a eficiência</strong> das
+					aplicações que desenvolvo, garantindo uma experiência de usuário de
+					alta qualidade e um tempo de resposta rápido.
 				</p>
 				<br />
 				<p>
-					Com tudo que aprendi, sou capaz de desenvolver sites eficientes,
-					interativos, semânticos, de fácil manutenção e diversos outros
-					atributos que qualquer site de sucesso deve ter (pelo menos na
-					
-					<strong> Frontend</strong>).
+					Além disso, tenho conhecimento em segurança web e me preocupo em criar
+					aplicações que oferecem{" "}
+					<strong>segurança e privacidade aos usuários</strong>. Estou sempre
+					atualizado com as últimas tendências em desenvolvimento web e
+					continuamente buscando aprender novas habilidades e técnicas. Estou
+					animado em trabalhar em projetos desafiadores e em ajudar empresas a
+					alcançarem seus objetivos através do desenvolvimento web. Se você está
+					procurando um programador experiente e apaixonado pelo que faz, entre
+					em contato comigo por email para discutir suas necessidades de
+					desenvolvimento web.
 				</p>
 			</section>
 			<SkillBar />
