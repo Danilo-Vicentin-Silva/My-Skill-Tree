@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer"
 import MobileFooter from '../../components/Footer/MobileFooter'
 import { HomeStyle } from "./HomeStyle"
 
+
 const Home = () => {
 	return (
 		<HomeStyle>
