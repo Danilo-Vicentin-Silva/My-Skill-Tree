@@ -3,6 +3,7 @@ import br from "../../assets/images/brazil-flag.png"
 import us from "../../assets/images/us-flag.png"
 import { LanguageSwitcherStyled } from "./LanguageSwitcherStyled"
 import { useTranslation } from "react-i18next"
+import { NavLink } from "react-router-dom"
 
 const languageOptions = [
   { name: "Português/BR", value: "ptBR", flag: br },
@@ -21,7 +22,7 @@ const LanguageSwitcher = () => {
 
       <section id="languages-selection">
         {languageOptions.map(({ name, value, flag }) => (
-          <a href="/home" key={value} rel="next">
+          <NavLink to="/home" key={value} rel="next">
             <button
               onClick={() => {
                 i18n.changeLanguage(value)
@@ -31,7 +32,7 @@ const LanguageSwitcher = () => {
               <img src={flag} alt={name} />
               <span>{name}</span>
             </button>
-          </a>
+          </NavLink>
         ))}
       </section>
     </LanguageSwitcherStyled>

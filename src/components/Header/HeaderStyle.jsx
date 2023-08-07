@@ -7,7 +7,7 @@ export const HeaderStyle = styled.header`
   padding: 30px;
 
   img {
-    width: 150px;
+    width: 100px;
     margin-right: 15px;
   }
 

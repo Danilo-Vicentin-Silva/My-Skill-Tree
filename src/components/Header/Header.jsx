@@ -6,9 +6,9 @@ import CodeRoundedIcon from "@mui/icons-material/CodeRounded"
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined"
 import { IoLogoReact } from "react-icons/io5"
 import { HeaderStyle } from "./HeaderStyle"
-import logotipo from "../../assets/images/logotipo.webp"
 import { useTranslation } from "react-i18next"
 import useLanguage from "../../hooks/useLanguage."
+import logotipo from "../../assets/images/logotipo.webp"
 
 const Header = () => {
   const { t } = useTranslation()
@@ -21,7 +21,7 @@ const Header = () => {
         <ul>
           <li>
             <abbr title="Home">
-              <NavLink to="/home">
+              <NavLink to="/home" rel="internal">
                 <span>
                   <HomeOutlinedIcon />
                 </span>
@@ -31,7 +31,7 @@ const Header = () => {
 
           <li>
             <abbr title={t("projetos")}>
-              <NavLink to="/projetos">
+              <NavLink to="/projetos" rel="internal">
                 <span>
                   <CodeRoundedIcon />
                 </span>
@@ -41,7 +41,7 @@ const Header = () => {
 
           <li>
             <abbr title={t("sobreMim1")}>
-              <NavLink to="/perfil">
+              <NavLink to="/perfil" rel="internal">
                 <span>
                   <PersonOutlinedIcon />
                 </span>
@@ -49,7 +49,7 @@ const Header = () => {
             </abbr>
           </li>
           <li>
-            <abbr title="Logout">
+            <abbr title="Logout" rel="prev">
               <NavLink to="/">
                 <span>
                   <BiLogOut />
