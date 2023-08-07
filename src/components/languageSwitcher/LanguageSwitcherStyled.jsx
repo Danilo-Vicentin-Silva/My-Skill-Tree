@@ -15,6 +15,13 @@ export const LanguageSwitcherStyled = styled.section`
     font-size: 1em;
   }
 
+  a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    align-self: flex-end;
+  }
+
   #languages-selection {
     text-align: center;
 

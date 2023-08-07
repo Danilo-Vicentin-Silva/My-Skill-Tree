@@ -1,5 +1,37 @@
 {
   "translation": {
-    "poweredBy": "powered by"
+    "sejaBemVindo": "WELCOME!",
+    "selecioneSuaLinguagem": "Select your language",
+    "desenvolvidoEm": "Powered By",
+    "projetos": "Projects",
+    "sobreMim1": "About Me",
+    "racingF1Card": "Formula 1 info site",
+    "listaDeTarefas": "Task List",
+    "listaDeTarefasCard": "Dynamic task list",
+    "telaLogin": "Login Screen",
+    "telaLoginCard": "Responsive Login Screen with Media Queries",
+    "siteAndroid": "Android Website",
+    "siteAndroidCard": "Informational and themed website",
+    "cordelModerno": "Modern Cordel",
+    "cordelModernoCard": "Brazilian Cordel with CSS Effects",
+    "espaçoParaMais": "Space For More",
+    "siteDesenvolvidoPor": "Develop By",
+    "racingF1Descricao": "RacingF1 is an informative website of the top category of motorsport, giving a brief introduction to the sport's premises, this personal project was my idea, in order to fix my knowledge in HTML and CSS, and a little Javascript. This project offers a beautiful example of my skills in building layouts for websites of this more “journalistic” genre.",
+    "listaDeTarefasDescricao": "Completely developed in React, Task List is a website made for didactic purposes, representing my introduction to ReactJS, where I learned several terms and tools present in this fantastic library. As it is a very new project, it has not yet been improved for the newest features, and it no longer illustrates my level of mastery of ReactJS, which is much broader nowadays.",
+    "telaDeLoginDescricao": "As one of my first personal Front End projects, Login Screen was developed using only HTML and CSS. Also for didactic purposes, it represented the fixation of the CSS Media Queries content (technology to make a page responsive to different screen sizes).",
+    "cordelModernoDescricao": "Also representing one of my personal beginner projects, this didactic proposal aims to fix and demonstrate my knowledge in CSS, more specifically in Parallax effect and image layout, how they affect the loading time of a page and how to optimize its use for design proposals . Cordel Moderno is also a reinterpretation of the old Brazilian cordels, now represented in a responsive webpage.",
+    "siteAndroidDescricao": "Site that marked the end of a long journey of studying HTML, CSS and basic Javascript, this one tells, briefly, the history of the creation of the famous Bugdroid of the Android operating system. With technologies such as Media Query, Iframes, Navlinks, refactoring, color theory, list styling, semantic tag organization (SEO), responsive layout, optimization... in short, several essential topics to build a good Web learning base Development are present in this personal project as proof of my knowledge, from Junior to Full Dev level, in front-end website programming.",
+    "cliqueAquiRenderizar": "RENDER PROJECT",
+    "fecharProjeto": "CLOSE PROJECT",
+    "acesse": "Check Out",
+    "boaTarde": "Good evening",
+    "bomDia": "Good morning",
+    "sou": "I'm",
+    "desenvolvedorWeb": "Web Developer",
+    "sobreMim": "Web development programmer with experience in creating custom web solutions for companies of all sizes and sectors. My specialty is the development of websites and web applications, using the most recent technologies and tools available in the market. I have skill in programming languages like HTML, CSS, JavaScript, Typescript and NodeJS and ReactJS.",
+    "sobreMim2": "I take a user-centered approach to development, working collaboratively with the client's team (or just the client) to ensure that the solutions delivered meet the specific needs of each project. I am always looking for ways to optimize the performance and efficiency of the applications I develop while ensuring a high quality user experience and fast response time.",
+    "sobreMim3": "In addition, I have knowledge in web security and I am concerned with creating applications that offer users security and privacy. I'm always up to date with the latest trends in web development and I'm always looking to learn new skills and techniques. I am excited about working on challenging projects and helping companies achieve their goals through web development. If you are looking for an experienced programmer who is passionate about what he does, please contact me by email to discuss your web development needs.",
+    "minhasHabilidades": "Always studying the official documentation, following newsletters, watching video classes and studying a lot, I strive to be always evolving in my area, and always using the best technologies in the programming market, namely:",
+    "contatos": "Looking for a modern and responsive website? Get in touch with me!"
   }
 }

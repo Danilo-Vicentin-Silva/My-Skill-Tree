@@ -28,6 +28,7 @@ export const AboutStyle = styled.main`
 
 	@media screen and (max-width: 1024px) {
 		h2 {
+			text-align: center;
 			font-size: 1em;
 		}
 		section {

@@ -1,5 +1,37 @@
 {
   "translation": {
-    "welcome": "Welcome"
+    "sejaBemVindo": "SEJA BEM VINDO!",
+    "selecioneSuaLinguagem": "Selecione sua linguagem",
+    "desenvolvidoEm": "Desenvolvido em",
+    "projetos": "Projetos",
+    "sobreMim1": "Sobre Mim",
+    "racingF1Card": "Site informativo da Formula 1",
+    "listaDeTarefas": "Lista de Tarefas",
+    "listaDeTarefasCard": "Lista de tarefas dinâmica",
+    "telaLogin": "Tela Login",
+    "telaLoginCard": "Tela de login responsiva com media queries",
+    "siteAndroid": "Site Android",
+    "siteAndroidCard": "Site informativo e temático",
+    "cordelModerno": "Cordel Moderno",
+    "cordelModernoCard": "Cordel brasileiro com efeitos CSS",
+    "espaçoParaMais": "Espaço Para Mais",
+    "siteDesenvolvidoPor": "Desenvolvido por",
+    "racingF1Descricao": "RacingF1 é um site informativo da categoria máxima do automobilismo, dando uma breve introdução as premissas do esporte, esse projeto pessoal foi total ideia minha, afim de fixar meus conhecimentos em HTML e CSS, e um pouco de Javascript. Esse projeto oferece um belo exemplo das minhas capacidades em construir layouts de sites desse gênero mais “jornalístico”.",
+    "listaDeTarefasDescricao": "Completamente desenvolvido em React, Task List é um website feito para fins didáticos, representando minha introdução ao ReactJS, onde eu aprendi diversos termos e ferramentas presentes nessa fantástica biblioteca. Como é um projeto bem iniciante, ainda não foi aprimorado para as mais novas features, e não ilustra mais meu nível de domínio de ReactJS, do qual está bem mais amplo atualmente.",
+    "telaDeLoginDescricao": "Sendo um dos meus primeiros projetos pessoais para Front End, Tela Login foi desenvolvido somente utilizando HTML e CSS. Também para fins didáticos, representou a fixação do conteúdo de Media Queries de CSS (tecnologia para tornar uma página responsiva a diferentes tamanhos de tela).",
+    "cordelModernoDescricao": "Também representando um dos meus projetos pessoais iniciantes, esta proposta didática visa fixar e demostrar meus conhecimentos em CSS, mais especificadamente em efeito Paralax e disposição de imagens, como elas afetam o tempo de carregamento de uma página e como otimizar seu uso para propostas de design. Cordel Moderno também é uma releitura dos antigos cordéis brasileiros, agora representado em uma página web responsiva.",
+    "siteAndroidDescricao": "Site que marcou o fim de uma longa jornada de estudas em HTML, CSS e Javascript básico, este conta, brevemente, a história da criação do famoso Bugdroid do sistema operacional Android. Com tecnologias como Media Query, Iframes, Navlinks, refatoração, teoria das cores, estilização de listas, organização em tags semânticas (SEO), layout responsivo, otimização... emfim, vários tópicos primordiais para se construir uma boa base de aprendizado em Web Development estão presentes neste projeto pessoal como prova do meu conhecimento, de nível Dev Júnior a Pleno, em programação de sites na parte Front End.",
+    "cliqueAquiRenderizar": "RENDERIZAR O PROJETO",
+    "fecharProjeto": "FECHAR O PROJETO",
+    "acesse": "Acesse",
+    "boaTarde": "Boa tarde",
+    "bomDia": "Bom dia",
+    "sou": "Sou",
+    "desenvolvedorWeb": "Desenvolvedor Web",
+    "sobreMim": "Programador em desenvolvimento web com experiência em criar soluções web personalizadas para empresas de todos os tamanhos e setores. Minha especialidade é o desenvolvimento de sites e aplicações web, utilizando as mais recentes tecnologias e ferramentas disponíveis no mercado. Tenho habilidade em linguagens de programação como HTML, CSS, JavaScript, Typescript e NodeJS e ReactJS.",
+    "sobreMim2": "Tenho uma abordagem centrada no usuário para o desenvolvimento, trabalhando em colaboração com a equipe do cliente (ou só o mesmo) para garantir que as soluções entregues atendam às necessidades específicas de cada projeto. Estou sempre procurando maneiras de otimizar o desempenho e a eficiência das aplicações que desenvolvo, garantindo uma experiência de usuário de alta qualidade e um tempo de resposta rápido.",
+    "sobreMim3": "Além disso, tenho conhecimento em segurança web e me preocupo em criar aplicações que oferecem segurança e privacidade aos usuários. Estou sempre atualizado com as últimas tendências em desenvolvimento web e continuamente buscando aprender novas habilidades e técnicas. Estou animado em trabalhar em projetos desafiadores e em ajudar empresas a alcançarem seus objetivos através do desenvolvimento web. Se você está procurando um programador experiente e apaixonado pelo que faz, entre em contato comigo por email para discutir suas necessidades de desenvolvimento web.",
+    "minhasHabilidades": "Sempre estudando as documentações oficiais, seguindo newsletters, assistindo videoaulas e estudando muito, prezo por estar sempre evoluindo em minha área, e sempre utilizando as melhores tecnologias do mercado de programação, sendo elas:",
+    "contatos":"Quer um site moderno e responsivo? Entre em contato comigo!"
   }
 }
