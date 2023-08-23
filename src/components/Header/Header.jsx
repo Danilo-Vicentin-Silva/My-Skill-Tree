@@ -1,18 +1,18 @@
-import { BiLogOut } from "react-icons/bi"
-import React from "react"
-import { NavLink } from "react-router-dom"
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined"
-import CodeRoundedIcon from "@mui/icons-material/CodeRounded"
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined"
-import { IoLogoReact } from "react-icons/io5"
-import { HeaderStyle } from "./HeaderStyle"
-import { useTranslation } from "react-i18next"
-import useLanguage from "../../hooks/useLanguage."
-import logotipo from "../../assets/images/logotipo.webp"
+import { BiLinkExternal } from "react-icons/bi";
+import { BiLogOut } from "react-icons/bi";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
+import { HeaderStyle } from "./HeaderStyle";
+import { useTranslation } from "react-i18next";
+import useLanguage from "../../hooks/useLanguage.";
+import logotipo from "../../assets/images/logotipo.webp";
 
 const Header = () => {
-  const { t } = useTranslation()
-  useLanguage()
+  const { t } = useTranslation();
+  useLanguage();
 
   return (
     <HeaderStyle>
@@ -60,17 +60,17 @@ const Header = () => {
         </ul>
       </nav>
       <p>
-        {t("desenvolvidoEm")}
+        {t("acesseNovoPortfolio")}
         <a
-          href="https://pt-br.react.dev/reference/react"
+          href="https://danilovicentinsilva.netlify.app/"
           rel="nofollow"
-          target={"_blank"}
+          target={"_self"}
         >
-          ReactJS <IoLogoReact />
+          <BiLinkExternal />
         </a>
       </p>
     </HeaderStyle>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
