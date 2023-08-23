@@ -1,6 +1,6 @@
 # My-Skill-Tree
 
-Website Portfólio de **Fron End em Web Development**, incluindo projetos realizados, perfil de profissional e descrição dos projetos. Totalmente desenvolvido em ReactJS usando o **Vite** e ferramentas de teste como **Vitest**
+Meu site/portfólio de Desenvolvedor de Sites, onde inclui todos meus projetos e capacidades em programação na área de Desenvolvimento Web.
 
 ## Tecnologias usadas
 
